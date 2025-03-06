@@ -1,0 +1,1561 @@
+{
+  "mod_elements": [
+    {
+      "name": "Charken",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/entity/CharkenEntity.java",
+          "src/main/resources/data/charken/neoforge/biome_modifier/charken_biome_modifier.json",
+          "src/main/resources/assets/charken/models/item/charken_spawn_egg.json",
+          "src/main/java/net/mcreator/charken/client/renderer/CharkenRenderer.java"
+        ]
+      },
+      "path": "~/Enities"
+    },
+    {
+      "name": "EGG",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/worldgen/biome/egg.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "Yolktrien",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolktrien",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/neoforge/biome_modifier/yolktrien_biome_modifier.json",
+          "src/main/java/net/mcreator/charken/client/renderer/YolktrienRenderer.java",
+          "src/main/java/net/mcreator/charken/entity/YolktrienEntity.java",
+          "src/main/resources/assets/charken/models/item/yolktrien_spawn_egg.json"
+        ]
+      },
+      "path": "~/Enities"
+    },
+    {
+      "name": "Lasso",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lasso",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/item/LassoItem.java",
+          "src/main/resources/assets/charken/models/item/lasso.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Chernkain",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chernkain",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Labchest",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labchest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/chests/labchest.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Lab",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/worldgen/template_pool/lab.json",
+          "src/main/resources/data/charken/worldgen/structure/lab.json",
+          "src/main/resources/data/charken/worldgen/structure_set/lab.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Edward",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "edward",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/worldgen/structure_set/edward.json",
+          "src/main/resources/data/charken/worldgen/template_pool/edward.json",
+          "src/main/resources/data/charken/worldgen/structure/edward.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Charkenleg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charkenleg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/charkenleg.json",
+          "src/main/java/net/mcreator/charken/item/CharkenlegItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "RawcharkenLeg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawcharken_leg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/rawcharken_leg.json",
+          "src/main/java/net/mcreator/charken/item/RawcharkenLegItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Legr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/leg.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Eggorite",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/worldgen/template_pool/eggorite.json",
+          "src/main/resources/data/charken/worldgen/structure_set/eggorite.json",
+          "src/main/resources/data/charken/worldgen/structure/eggorite.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Eggstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/block/EggstoneBlock.java",
+          "src/main/resources/data/charken/neoforge/biome_modifier/eggstone_biome_modifier.json",
+          "src/main/resources/assets/charken/models/item/eggstone.json",
+          "src/main/resources/data/charken/worldgen/placed_feature/eggstone.json",
+          "src/main/resources/assets/charken/blockstates/eggstone.json",
+          "src/main/resources/data/charken/loot_table/blocks/eggstone.json",
+          "src/main/resources/data/charken/worldgen/configured_feature/eggstone.json",
+          "src/main/resources/assets/charken/models/block/eggstone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Eggstonebricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggstonebricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/blockstates/eggstonebricks.json",
+          "src/main/resources/assets/charken/models/block/eggstonebricks.json",
+          "src/main/java/net/mcreator/charken/block/EggstonebricksBlock.java",
+          "src/main/resources/assets/charken/models/item/eggstonebricks.json",
+          "src/main/resources/data/charken/loot_table/blocks/eggstonebricks.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Stone Bricks"
+    },
+    {
+      "name": "Egggrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egggrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/blockstates/egggrass.json",
+          "src/main/resources/assets/charken/models/item/egggrass.json",
+          "src/main/java/net/mcreator/charken/block/EgggrassBlock.java",
+          "src/main/resources/assets/charken/models/block/egggrass.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WHATISTHIS",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whatisthis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/whatisthis.json"
+        ]
+      },
+      "path": "~/Achievements"
+    },
+    {
+      "name": "Eggstonebrickscrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggstonebrickscrafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/eggstonebricks.json"
+        ]
+      },
+      "path": "~/Recipes/Egg Stone Brick Recipes"
+    },
+    {
+      "name": "EGGForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/worldgen/biome/egg_forest.json",
+          "src/main/resources/data/charken/worldgen/configured_feature/egg_forest_tree.json",
+          "src/main/resources/data/charken/worldgen/placed_feature/egg_forest_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "Eggdirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggdirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/block/eggdirt.json",
+          "src/main/resources/data/charken/worldgen/placed_feature/eggdirt.json",
+          "src/main/resources/assets/charken/models/item/eggdirt.json",
+          "src/main/resources/data/charken/neoforge/biome_modifier/eggdirt_biome_modifier.json",
+          "src/main/resources/data/charken/loot_table/blocks/eggdirt.json",
+          "src/main/java/net/mcreator/charken/block/EggdirtBlock.java",
+          "src/main/resources/data/charken/worldgen/configured_feature/eggdirt.json",
+          "src/main/resources/assets/charken/blockstates/eggdirt.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Yolkblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolkblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/block/YolkblockBlock.java",
+          "src/main/resources/assets/charken/models/item/yolkblock.json",
+          "src/main/resources/data/charken/neoforge/biome_modifier/yolkblock_biome_modifier.json",
+          "src/main/resources/assets/charken/models/block/yolkblock.json",
+          "src/main/resources/assets/charken/blockstates/yolkblock.json",
+          "src/main/resources/data/charken/worldgen/placed_feature/yolkblock.json",
+          "src/main/resources/data/charken/loot_table/blocks/yolkblock.json",
+          "src/main/resources/data/charken/worldgen/configured_feature/yolkblock.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Yolk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/item/YolkItem.java",
+          "src/main/resources/assets/charken/models/item/yolk.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Flingshot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flingshot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/flingshot.json",
+          "src/main/java/net/mcreator/charken/item/FlingshotItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Yolkpro",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolkpro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/entity/YolkproEntity.java",
+          "src/main/java/net/mcreator/charken/client/renderer/YolkproRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Yellowstone",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/yellowstone.json"
+        ]
+      },
+      "path": "~/Achievements"
+    },
+    {
+      "name": "AVeryEggyPlace",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_very_eggy_place",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/a_very_eggy_place.json"
+        ]
+      },
+      "path": "~/Achievements"
+    },
+    {
+      "name": "Yolkliq",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolkliq",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/yolkliq_bucket.json",
+          "src/main/resources/assets/charken/blockstates/yolkliq.json",
+          "src/main/resources/assets/charken/models/block/yolkliq.json",
+          "src/main/java/net/mcreator/charken/block/YolkliqBlock.java",
+          "src/main/java/net/mcreator/charken/fluid/YolkliqFluid.java",
+          "src/main/java/net/mcreator/charken/fluid/types/YolkliqFluidType.java",
+          "src/main/java/net/mcreator/charken/item/YolkliqItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ylkq",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ylkq",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/yolk_juice.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Flingr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flingr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/flingshot.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WHATINTHEWORLDISTHAT",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whatintheworldisthat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/whatintheworldisthat.json"
+        ]
+      },
+      "path": "~/Achievements"
+    },
+    {
+      "name": "Warlm",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/warlm_spawn_egg.json",
+          "src/main/java/net/mcreator/charken/entity/WarlmEntity.java",
+          "src/main/resources/data/charken/neoforge/biome_modifier/warlm_biome_modifier.json",
+          "src/main/java/net/mcreator/charken/client/renderer/WarlmRenderer.java"
+        ]
+      },
+      "path": "~/Enities"
+    },
+    {
+      "name": "Warlmv",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlmv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/worldgen/structure_set/warlmv.json",
+          "src/main/resources/data/charken/worldgen/template_pool/warlmv.json",
+          "src/main/resources/data/charken/worldgen/structure/warlmv.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Eggbricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggbricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/blocks/eggbricks.json",
+          "src/main/java/net/mcreator/charken/block/EggbricksBlock.java",
+          "src/main/resources/assets/charken/models/block/eggbricks.json",
+          "src/main/resources/assets/charken/models/item/eggbricks.json",
+          "src/main/resources/assets/charken/blockstates/eggbricks.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Bricks"
+    },
+    {
+      "name": "Eggbricked",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggbricked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/eggbrick.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Bricks"
+    },
+    {
+      "name": "Eggbrick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggbrick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/eggbrick.json",
+          "src/main/java/net/mcreator/charken/item/EggbrickItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Eggbrickeds",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggbrickeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/eggbricks.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Bricks"
+    },
+    {
+      "name": "BigLabLargeLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_lab_large_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/chests/large_loot.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "BigLabMediumLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_lab_medium_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/chests/medium.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "BigLab",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_lab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/worldgen/template_pool/big_lab.json",
+          "src/main/resources/data/charken/worldgen/structure_set/big_lab.json",
+          "src/main/resources/data/charken/worldgen/structure/big_lab.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "EgggrassOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egggrass_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/EgggrassOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Egg Grass Logic"
+    },
+    {
+      "name": "EggGrassdrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_grassdrop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/blocks/egggrass.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Grass Logic"
+    },
+    {
+      "name": "EggLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/blocks/egg_log.json",
+          "src/main/java/net/mcreator/charken/block/EggLogBlock.java",
+          "src/main/resources/assets/charken/models/item/egg_log.json",
+          "src/main/resources/assets/charken/blockstates/egg_log.json",
+          "src/main/resources/assets/charken/models/block/egg_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EggPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/block/EggPlanksBlock.java",
+          "src/main/resources/assets/charken/models/block/egg_planks.json",
+          "src/main/resources/data/charken/loot_table/blocks/egg_planks.json",
+          "src/main/resources/assets/charken/models/item/egg_planks.json",
+          "src/main/resources/assets/charken/blockstates/egg_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EggLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/block/EggLeavesBlock.java",
+          "src/main/resources/assets/charken/models/item/egg_leaves.json",
+          "src/main/resources/assets/charken/blockstates/egg_leaves.json",
+          "src/main/resources/assets/charken/models/block/egg_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CraftingTable",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/crafting_table.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EggPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_planks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EggStoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_stone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/block/egg_stone_brick_stairs.json",
+          "src/main/resources/assets/charken/blockstates/egg_stone_brick_stairs.json",
+          "src/main/resources/assets/charken/models/block/egg_stone_brick_stairs_outer.json",
+          "src/main/java/net/mcreator/charken/block/EggStoneBrickStairsBlock.java",
+          "src/main/resources/assets/charken/models/item/egg_stone_brick_stairs.json",
+          "src/main/resources/assets/charken/models/block/egg_stone_brick_stairs_inner.json",
+          "src/main/resources/data/charken/loot_table/blocks/egg_stone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Stone Bricks"
+    },
+    {
+      "name": "EggStoneBrickWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_stone_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/block/egg_stone_brick_wall_side_tall.json",
+          "src/main/resources/assets/charken/models/block/egg_stone_brick_wall_inventory.json",
+          "src/main/resources/assets/charken/blockstates/egg_stone_brick_wall.json",
+          "src/main/resources/assets/charken/models/block/egg_stone_brick_wall.json",
+          "src/main/resources/assets/charken/models/item/egg_stone_brick_wall.json",
+          "src/main/resources/assets/charken/models/block/egg_stone_brick_wall_post.json",
+          "src/main/java/net/mcreator/charken/block/EggStoneBrickWallBlock.java",
+          "src/main/resources/data/charken/loot_table/blocks/egg_stone_brick_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Stone Bricks"
+    },
+    {
+      "name": "EggSapling",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/blocks/egg_sapling.json",
+          "src/main/resources/assets/charken/models/item/egg_sapling.json",
+          "src/main/resources/assets/charken/blockstates/egg_sapling.json",
+          "src/main/java/net/mcreator/charken/block/EggSaplingBlock.java",
+          "src/main/resources/assets/charken/models/block/egg_sapling.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EggLeave",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_leave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/block/EggLeaveBlock.java",
+          "src/main/resources/assets/charken/models/block/egg_leave.json",
+          "src/main/resources/assets/charken/models/item/egg_leave.json",
+          "src/main/resources/assets/charken/blockstates/egg_leave.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Tree and Leaves Logic"
+    },
+    {
+      "name": "EggLeaveLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_leave_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/blocks/egg_leave.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "EggLeaveOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_leave_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/EggLeaveOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Egg Tree and Leaves Logic"
+    },
+    {
+      "name": "EggSaplingOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_sapling_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/EggSaplingOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Egg Tree and Leaves Logic"
+    },
+    {
+      "name": "EggSaplingOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_sapling_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/EggSaplingOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Egg Tree and Leaves Logic"
+    },
+    {
+      "name": "EggSaplingBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_sapling_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/EggSaplingBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Egg Tree and Leaves Logic"
+    },
+    {
+      "name": "EggLeavesLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_leaves_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/blocks/egg_leaves.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "CharkenLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charken_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/entities/charken.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "CharkenDisk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charken_disk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/jukebox_song/charken_disk.json",
+          "src/main/resources/assets/charken/models/item/charken_disk.json",
+          "src/main/java/net/mcreator/charken/item/CharkenDiskItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "IWantToKnowWhereMyWoodIs",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_want_to_know_where_my_wood_is",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/jukebox_song/i_want_to_know_where_my_wood_is.json",
+          "src/main/resources/assets/charken/models/item/i_want_to_know_where_my_wood_is.json",
+          "src/main/java/net/mcreator/charken/item/IWantToKnowWhereMyWoodIsItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EggStoneBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/block/EggStoneBrickSlabBlock.java",
+          "src/main/resources/data/charken/loot_table/blocks/egg_stone_brick_slab.json",
+          "src/main/resources/assets/charken/blockstates/egg_stone_brick_slab.json",
+          "src/main/resources/assets/charken/models/block/egg_stone_brick_slab_full.json",
+          "src/main/resources/assets/charken/models/block/egg_stone_brick_slab.json",
+          "src/main/resources/assets/charken/models/item/egg_stone_brick_slab.json",
+          "src/main/resources/assets/charken/models/block/egg_stone_brick_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Stone Bricks"
+    },
+    {
+      "name": "EggStoneBrickWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_stone_brick_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_stone_brick_wall_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Egg Stone Brick Recipes"
+    },
+    {
+      "name": "EggStoneBrickSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_stone_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_stone_brick_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Egg Stone Brick Recipes"
+    },
+    {
+      "name": "EggStoneBrickStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_stone_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_stone_brick_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Egg Stone Brick Recipes"
+    },
+    {
+      "name": "EggStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/egg_stairs.json",
+          "src/main/resources/assets/charken/models/block/egg_stairs_outer.json",
+          "src/main/resources/data/charken/loot_table/blocks/egg_stairs.json",
+          "src/main/resources/assets/charken/models/block/egg_stairs.json",
+          "src/main/resources/assets/charken/blockstates/egg_stairs.json",
+          "src/main/resources/assets/charken/models/block/egg_stairs_inner.json",
+          "src/main/java/net/mcreator/charken/block/EggStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Egg Plank Stuff"
+    },
+    {
+      "name": "EggFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/block/egg_fence.json",
+          "src/main/resources/data/charken/loot_table/blocks/egg_fence.json",
+          "src/main/java/net/mcreator/charken/block/EggFenceBlock.java",
+          "src/main/resources/assets/charken/models/block/egg_fence_post.json",
+          "src/main/resources/assets/charken/blockstates/egg_fence.json",
+          "src/main/resources/assets/charken/models/item/egg_fence.json",
+          "src/main/resources/assets/charken/models/block/egg_fence_inventory.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Plank Stuff"
+    },
+    {
+      "name": "EggFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/block/egg_fence_gate_open.json",
+          "src/main/resources/assets/charken/blockstates/egg_fence_gate.json",
+          "src/main/java/net/mcreator/charken/block/EggFenceGateBlock.java",
+          "src/main/resources/assets/charken/models/block/egg_fence_gate.json",
+          "src/main/resources/assets/charken/models/block/egg_fence_gate_wall_open.json",
+          "src/main/resources/assets/charken/models/item/egg_fence_gate.json",
+          "src/main/resources/assets/charken/models/block/egg_fence_gate_wall.json",
+          "src/main/resources/data/charken/loot_table/blocks/egg_fence_gate.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Plank Stuff"
+    },
+    {
+      "name": "EggButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/block/egg_button_pressed.json",
+          "src/main/resources/assets/charken/models/block/egg_button_inventory.json",
+          "src/main/java/net/mcreator/charken/block/EggButtonBlock.java",
+          "src/main/resources/assets/charken/models/item/egg_button.json",
+          "src/main/resources/assets/charken/models/block/egg_button.json",
+          "src/main/resources/data/charken/loot_table/blocks/egg_button.json",
+          "src/main/resources/assets/charken/blockstates/egg_button.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Plank Stuff"
+    },
+    {
+      "name": "EggSaplingOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_sapling_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/EggSaplingOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Egg Tree and Leaves Logic"
+    },
+    {
+      "name": "EggPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/block/EggPressurePlateBlock.java",
+          "src/main/resources/assets/charken/models/block/egg_pressure_plate.json",
+          "src/main/resources/assets/charken/models/block/egg_pressure_plate_down.json",
+          "src/main/resources/assets/charken/blockstates/egg_pressure_plate.json",
+          "src/main/resources/data/charken/loot_table/blocks/egg_pressure_plate.json",
+          "src/main/resources/assets/charken/models/item/egg_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/Egg Plank Stuff"
+    },
+    {
+      "name": "EggFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_fence_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EggFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EggStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HowCouldYou",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how_could_you",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/how_could_you.json"
+        ]
+      },
+      "path": "~/Achievements"
+    },
+    {
+      "name": "EGGCaves",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_caves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/worldgen/biome/egg_caves.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "EggDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/blockstates/egg_door.json",
+          "src/main/resources/assets/charken/models/block/egg_door_bottom_left.json",
+          "src/main/resources/assets/charken/models/block/egg_door_bottom_right_open.json",
+          "src/main/resources/data/charken/loot_table/blocks/egg_door.json",
+          "src/main/resources/assets/charken/models/block/egg_door_top_left_open.json",
+          "src/main/resources/assets/charken/models/block/egg_door_top_left.json",
+          "src/main/resources/assets/charken/models/block/egg_door_top_right_open.json",
+          "src/main/java/net/mcreator/charken/block/EggDoorBlock.java",
+          "src/main/resources/assets/charken/models/item/egg_door.json",
+          "src/main/resources/assets/charken/models/block/egg_door_bottom_left_open.json",
+          "src/main/resources/assets/charken/models/block/egg_door_bottom_right.json",
+          "src/main/resources/assets/charken/models/block/egg_door_top_right.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EggTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/blockstates/egg_trapdoor.json",
+          "src/main/java/net/mcreator/charken/block/EggTrapdoorBlock.java",
+          "src/main/resources/assets/charken/models/block/egg_trapdoor_open.json",
+          "src/main/resources/assets/charken/models/item/egg_trapdoor.json",
+          "src/main/resources/assets/charken/models/block/egg_trapdoor.json",
+          "src/main/resources/assets/charken/models/block/egg_trapdoor_top.json",
+          "src/main/resources/data/charken/loot_table/blocks/egg_trapdoor.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EggDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_door_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EggTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EggSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/block/egg_slab.json",
+          "src/main/java/net/mcreator/charken/block/EggSlabBlock.java",
+          "src/main/resources/assets/charken/models/block/egg_slab_full.json",
+          "src/main/resources/data/charken/loot_table/blocks/egg_slab.json",
+          "src/main/resources/assets/charken/models/block/egg_slab_top.json",
+          "src/main/resources/assets/charken/models/item/egg_slab.json",
+          "src/main/resources/assets/charken/blockstates/egg_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EggSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "the_tale_of_charken",
+      "files": [
+        "the_tale_of_charken"
+      ],
+      "category": "neutral",
+      "subtitle": "The Tale of Charken"
+    },
+    {
+      "name": "wood",
+      "files": [
+        "i_wanna_know_where_my_wood_is"
+      ],
+      "category": "neutral",
+      "subtitle": "I want to know where my wood is"
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:EGGCaves",
+      "~CUSTOM:EGG",
+      "~CUSTOM:EGGForest"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Yolkliq"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Yolkblock"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:EGGForest",
+      "~CUSTOM:EGG"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Lasso"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:EGGCaves",
+      "~CUSTOM:EGG",
+      "~CUSTOM:EGGForest"
+    ],
+    "ITEMS:forge:cobblestone": [
+      "CUSTOM:Eggstone"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:RawcharkenLeg",
+      "~CUSTOM:Charkenleg"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:IWantToKnowWhereMyWoodIs",
+      "~CUSTOM:CharkenDisk"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:EggLog"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:EggSlab",
+      "~CUSTOM:EggStoneBrickSlab"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:EggSlab",
+      "~CUSTOM:EggTrapdoor",
+      "~CUSTOM:EggDoor",
+      "~CUSTOM:EggPressurePlate",
+      "~CUSTOM:EggFenceGate",
+      "~CUSTOM:EggFence",
+      "~CUSTOM:EggStairs",
+      "~CUSTOM:EggLog",
+      "~CUSTOM:EggPlanks"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EggStoneBrickSlab",
+      "~CUSTOM:EggStoneBrickWall",
+      "~CUSTOM:EggStoneBrickStairs",
+      "~CUSTOM:Eggstone",
+      "~CUSTOM:Eggbricks",
+      "~CUSTOM:Yolkblock",
+      "~CUSTOM:Eggstonebricks"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Eggstone"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:EggFence"
+    ],
+    "ITEMS:neoforge:cobblestone": [
+      "CUSTOM:Eggstone"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:EggStoneBrickWall"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Eggdirt",
+      "~CUSTOM:Egggrass"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:EggStairs",
+      "~CUSTOM:EggStoneBrickStairs"
+    ],
+    "BLOCKS:minecraft:animals_spawnable_on": [
+      "CUSTOM:Egggrass",
+      "CUSTOM:Eggdirt"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:EGGCaves",
+      "~CUSTOM:EGG",
+      "~CUSTOM:EGGForest"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:EggPlanks"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:EGGForest",
+      "~CUSTOM:EGG"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.charken.eggbrick": "Egg Brick",
+      "block.charken.eggstonebricks": "Egg Stone Bricks",
+      "item.charken.i_want_to_know_where_my_wood_is": "I Want To Know Where My Wood Is",
+      "block.charken.egg_stairs": "Egg Stairs",
+      "fluid.charken.yolkliq": "Yolk",
+      "block.charken.egg_stone_brick_slab": "Egg Stone Brick Slab",
+      "block.charken.eggdirt": "Egg Dirt",
+      "block.charken.egg_log": "Egg Log",
+      "block.charken.egg_planks": "Egg Planks",
+      "block.charken.egg_slab": "Egg Planks",
+      "block.charken.eggbricks": "Egg Bricks",
+      "block.charken.yolkliq": "Yolk",
+      "item.charken.charkenleg": "Charkenleg",
+      "item.charken.rawcharken_leg": "Rawcharken Leg",
+      "advancements.a_very_eggy_place.descr": "Enter an egg biome",
+      "advancements.a_very_eggy_place.title": "A Very Eggy Place",
+      "block.charken.egg_stone_brick_stairs": "Egg Stone Brick Stairs",
+      "advancements.how_could_you.title": "How Could You!!!",
+      "block.charken.eggstone": "Egg Stone",
+      "block.charken.egg_trapdoor": "Egg Trapdoor",
+      "entity.charken.warlm": "Warlm",
+      "block.charken.egg_door": "Egg Door",
+      "block.charken.egg_fence": "Egg Fence",
+      "item.charken.warlm_spawn_egg": "Warlm Spawn Egg",
+      "item.charken.yolktrien_spawn_egg": "Yolktrien Spawn Egg",
+      "biome.charken.egg": "EGG",
+      "item.charken.flingshot": "Flingshot",
+      "advancements.whatisthis.descr": "Find a lasso",
+      "item.charken.charken_disk": "The Tale of Charken",
+      "advancements.whatintheworldisthat.descr": "get hit by a Charken",
+      "item.charken.charken_disk.desc": "The Tale of Charken",
+      "advancements.yellowstone.title": "Yellowstone",
+      "advancements.yellowstone.descr": "get a piece of yolk",
+      "block.charken.egg_leave": "Decaying Egg Leaves",
+      "advancements.whatintheworldisthat.title": "What the!?!?!",
+      "block.charken.egg_button": "Egg Button (NOT FUNCTIONAL)",
+      "item.charken.i_want_to_know_where_my_wood_is.desc": "I want to know where my wood is Cover by Element Animations.",
+      "subtitles.the_tale_of_charken": "The Tale of Charken",
+      "item.charken.charken_spawn_egg": "Charken Spawn Egg",
+      "item.charken.yolkliq_bucket": "Yolk Bucket",
+      "item.charken.yolk": "Yolk",
+      "entity.charken.yolktrien": "Yolktrien",
+      "block.charken.egggrass": "Egg Grass",
+      "block.charken.egg_pressure_plate": "Egg Pressure Plate (Not Working)",
+      "advancements.how_could_you.descr": "why would you kill a charken and eat its leg",
+      "item_group.charken.chernkain": "Charken",
+      "biome.charken.egg_caves": "EGG Caves",
+      "block.charken.egg_leaves": "Egg Leaves",
+      "block.charken.egg_fence_gate": "Egg Fence Gate",
+      "block.charken.yolkblock": "Yolk Block",
+      "block.charken.egg_sapling": "Egg Sapling",
+      "advancements.whatisthis.title": "Isnt this just a lead?",
+      "subtitles.wood": "I want to know where my wood is",
+      "entity.charken.charken": "Charken",
+      "biome.charken.egg_forest": "EGG Forest",
+      "item.charken.lasso": "Lasso",
+      "block.charken.egg_stone_brick_wall": "Egg Stone Brick Wall"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Enities",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Egg Bricks",
+            "children": []
+          },
+          {
+            "name": "Egg Stone Bricks",
+            "children": []
+          },
+          {
+            "name": "Egg Grass Logic",
+            "children": []
+          },
+          {
+            "name": "Egg Tree and Leaves Logic",
+            "children": []
+          },
+          {
+            "name": "Egg Plank Stuff",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Achievements",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "Egg Stone Brick Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Loot Tables",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "charken",
+    "modName": "Charken",
+    "version": "1.5.1",
+    "description": "The Charken Mod",
+    "author": "JacobA0225, Bumstronaut",
+    "websiteURL": "https://modrinth.com/mod/charken",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "charken",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created with MCreator. All Ideas and models by JacobA0225 and Bumstronaut",
+    "modElementsPackage": "net.mcreator.charken"
+  },
+  "mcreatorVersion": 202400452410
+}
