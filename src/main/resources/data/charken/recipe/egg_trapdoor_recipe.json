@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "charken:egg_planks"
+    }
+  },
+  "result": {
+    "id": "charken:egg_trapdoor",
+    "count": 2
+  }
+}

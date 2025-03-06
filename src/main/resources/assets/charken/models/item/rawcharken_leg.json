@@ -1,0 +1,7 @@
+{
+  "parent": "charken:custom/charkenlegraw",
+  "textures": {
+    "1": "charken:block/",
+    "particle": "charken:item/charkenrawleg"
+  }
+}

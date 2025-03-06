@@ -1,0 +1,21 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Yolk"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.tripwire.detach"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 1,
+    "entityModel": "Modelyolkpro",
+    "customModelTexture": "yolk.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

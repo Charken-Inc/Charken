@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "charken:egg_stone_brick_slab",
+    "charken:egg_stone_brick_wall",
+    "charken:egg_stone_brick_stairs",
+    "charken:eggstone",
+    "charken:eggbricks",
+    "charken:yolkblock",
+    "charken:eggstonebricks"
+  ]
+}

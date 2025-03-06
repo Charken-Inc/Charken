@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "charken:block/eggstone_brick",
+    "bottom": "charken:block/eggstone_brick",
+    "top": "charken:block/eggstone_brick",
+    "side": "charken:block/eggstone_brick"
+  },
+  "render_type": "solid"
+}

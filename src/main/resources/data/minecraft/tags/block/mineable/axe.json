@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "charken:egg_slab",
+    "charken:egg_trapdoor",
+    "charken:egg_door",
+    "charken:egg_pressure_plate",
+    "charken:egg_fence_gate",
+    "charken:egg_fence",
+    "charken:egg_stairs",
+    "charken:egg_log",
+    "charken:egg_planks"
+  ]
+}

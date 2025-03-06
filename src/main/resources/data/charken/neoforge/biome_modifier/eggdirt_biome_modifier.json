@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "charken:egg_forest",
+    "charken:egg"
+  ],
+  "features": "charken:eggdirt",
+  "step": "underground_ores"
+}

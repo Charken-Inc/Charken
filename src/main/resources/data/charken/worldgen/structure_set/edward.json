@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "charken:edward",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 59,
+    "salt": 948149749
+  }
+}

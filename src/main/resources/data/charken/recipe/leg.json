@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 1.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "charken:rawcharken_leg"
+  },
+  "result": {
+    "id": "charken:charkenleg"
+  }
+}

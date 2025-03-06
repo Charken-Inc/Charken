@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "charken:block/egg_planks",
+    "bottom": "charken:block/egg_planks",
+    "top": "charken:block/egg_planks",
+    "side": "charken:block/egg_planks"
+  },
+  "render_type": "solid"
+}

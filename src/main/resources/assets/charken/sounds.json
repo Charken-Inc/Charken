@@ -1,0 +1,20 @@
+{
+  "the_tale_of_charken": {
+    "subtitle": "subtitles.the_tale_of_charken",
+    "sounds": [
+      {
+        "name": "charken:the_tale_of_charken",
+        "stream": false
+      }
+    ]
+  },
+  "wood": {
+    "subtitle": "subtitles.wood",
+    "sounds": [
+      {
+        "name": "charken:i_wanna_know_where_my_wood_is",
+        "stream": false
+      }
+    ]
+  }
+}

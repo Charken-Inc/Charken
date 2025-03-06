@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "charken:block/egg_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "charken:block/egg_log"
+    },
+    "axis=z": {
+      "model": "charken:block/egg_log",
+      "x": 90
+    }
+  }
+}

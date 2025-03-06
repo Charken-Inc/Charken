@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "charken:charken_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.whatintheworldisthat.title"
+    },
+    "description": {
+      "translate": "advancements.whatintheworldisthat.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "whatintheworldisthat_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 200
+          },
+          "source_entity": {
+            "type": "charken:charken"
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "charken:a_very_eggy_place"
+}

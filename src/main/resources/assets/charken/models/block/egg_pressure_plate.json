@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "particle": "charken:block/egg_planks",
+    "texture": "charken:block/egg_planks"
+  },
+  "render_type": "solid"
+}
