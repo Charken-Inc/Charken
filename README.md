@@ -5,7 +5,7 @@
 65 million years ago, Dinosaurs ruled the Earth, but they went extinct. The miner's recently discovered a new species, which they named, the Charken. Scientists have been able to extract DNA from this species, and bring it back to life. It ended up looking much like a chicken, and when the scientists brought out a real chicken, the Charken started to hide from the it. Eventually, the scientists started to make more of these creatures, but one day, they broke out of their enclosure. They are now roaming in the world. Few people have been able to ride these beasts. People have also discovered they like bright lights, and will follow you if you hold a redstone torch. After the Charkens escaped, they all Clucked Loudly, which brought egg shaped meteors, they fell down to earth, with a large impact, that changed the land that the charkens escaped from in to the egg biome. inside of the meteorites, were these weird creatures called Yolktrien that are basically flying sunny side up eggs with eyes! Stay safe out there everyone, and remember to report your sightings.
 
 ## Note
-Versions for 1.20.1 work with forge and neoforge
+Versions for 1.20.1 work with Forge and Neoforge.
 
 ### Included in Modpack [The Charkenverse](https://modrinth.com/modpack/the-charkenverse)
 
