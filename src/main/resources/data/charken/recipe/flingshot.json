@@ -7,15 +7,9 @@
     " c "
   ],
   "key": {
-    "a": {
-      "item": "minecraft:oak_fence"
-    },
-    "b": {
-      "item": "minecraft:string"
-    },
-    "c": {
-      "tag": "minecraft:planks"
-    }
+    "a": "minecraft:oak_fence",
+    "b": "minecraft:string",
+    "c": "#minecraft:planks"
   },
   "result": {
     "id": "charken:flingshot",

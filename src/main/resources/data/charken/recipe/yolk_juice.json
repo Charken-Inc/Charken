@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "charken:yolk"
-    },
-    {
-      "item": "minecraft:bucket"
-    }
+    "charken:yolk",
+    "minecraft:bucket"
   ],
   "result": {
     "id": "charken:yolkliq_bucket",

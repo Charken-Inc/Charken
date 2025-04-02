@@ -7,9 +7,7 @@
     "aa"
   ],
   "key": {
-    "a": {
-      "item": "charken:egg_planks"
-    }
+    "a": "charken:egg_planks"
   },
   "result": {
     "id": "charken:egg_door",

@@ -10,7 +10,7 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.charken.CharkenMod;
 
 public class IWantToKnowWhereMyWoodIsItem extends Item {
-	public IWantToKnowWhereMyWoodIsItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(CharkenMod.MODID, "i_want_to_know_where_my_wood_is"))));
+	public IWantToKnowWhereMyWoodIsItem(Item.Properties properties) {
+		super(properties.rarity(Rarity.RARE).stacksTo(1).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(CharkenMod.MODID, "i_want_to_know_where_my_wood_is"))));
 	}
 }

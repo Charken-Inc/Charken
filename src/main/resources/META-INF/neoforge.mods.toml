@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="charken"
-version="1.5.1"
+version="1.5.2"
 displayName="Charken"
 displayURL="https://modrinth.com/mod/charken"
 logoFile="logo.png"
@@ -18,14 +18,14 @@ description="The Charken Mod"
 [[dependencies.charken]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.65,)"
+    versionRange="[21.4.123,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.charken]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.1]"
+    versionRange="[1.21.4]"
     ordering="AFTER"
     side="BOTH"
 

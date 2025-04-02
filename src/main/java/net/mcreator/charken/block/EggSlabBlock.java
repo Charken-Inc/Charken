@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SlabBlock;
 
 public class EggSlabBlock extends SlabBlock {
-	public EggSlabBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1.05f, 3f));
+	public EggSlabBlock(BlockBehaviour.Properties properties) {
+		super(properties.sound(SoundType.WOOD).strength(1.05f, 3f));
 	}
 }

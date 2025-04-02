@@ -3,9 +3,7 @@
   "category": "misc",
   "experience": 2,
   "cookingtime": 200,
-  "ingredient": {
-    "item": "charken:eggstone"
-  },
+  "ingredient": "charken:eggstone",
   "result": {
     "id": "charken:eggbrick"
   }

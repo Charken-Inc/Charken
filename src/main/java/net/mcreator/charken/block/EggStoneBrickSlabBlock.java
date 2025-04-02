@@ -11,12 +11,12 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.core.BlockPos;
 
 public class EggStoneBrickSlabBlock extends SlabBlock {
-	public EggStoneBrickSlabBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1.5f, 6f).requiresCorrectToolForDrops());
+	public EggStoneBrickSlabBlock(BlockBehaviour.Properties properties) {
+		super(properties.sound(SoundType.STONE).strength(1.5f, 6f).requiresCorrectToolForDrops());
 	}
 
 	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+	public int getLightBlock(BlockState state) {
 		return 0;
 	}
 

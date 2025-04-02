@@ -26,6 +26,8 @@ public class CharkenModTabs {
 				tabData.accept(CharkenModItems.CHARKEN_SPAWN_EGG.get());
 				tabData.accept(CharkenModItems.YOLKTRIEN_SPAWN_EGG.get());
 				tabData.accept(CharkenModItems.LASSO.get());
+				tabData.accept(CharkenModItems.CHARKENLEG.get());
+				tabData.accept(CharkenModItems.RAWCHARKEN_LEG.get());
 				tabData.accept(CharkenModBlocks.EGGSTONE.get().asItem());
 				tabData.accept(CharkenModBlocks.EGGSTONEBRICKS.get().asItem());
 				tabData.accept(CharkenModBlocks.EGGGRASS.get().asItem());

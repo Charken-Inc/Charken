@@ -11,8 +11,8 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.core.BlockPos;
 
 public class EggFenceBlock extends FenceBlock {
-	public EggFenceBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1.05f, 3f).forceSolidOn());
+	public EggFenceBlock(BlockBehaviour.Properties properties) {
+		super(properties.sound(SoundType.WOOD).strength(1.05f, 3f).forceSolidOn());
 	}
 
 	@Override

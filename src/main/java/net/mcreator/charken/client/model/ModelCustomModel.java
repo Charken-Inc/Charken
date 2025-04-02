@@ -1,8 +1,8 @@
 package net.mcreator.charken.client.model;
 
-import net.minecraft.world.entity.Entity;
 import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.client.model.geom.builders.MeshDefinition;
 import net.minecraft.client.model.geom.builders.LayerDefinition;
@@ -13,13 +13,10 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.EntityModel;
 
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.PoseStack;
-
 // Made with Blockbench 4.11.1
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
-public class ModelCustomModel<T extends Entity> extends EntityModel<T> {
+public class ModelCustomModel extends EntityModel<LivingEntityRenderState> {
 	// This layer location should be baked with EntityRendererProvider.Context in
 	// the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath("charken", "model_custom_model"), "main");
@@ -31,6 +28,7 @@ public class ModelCustomModel<T extends Entity> extends EntityModel<T> {
 	public final ModelPart heaad;
 
 	public ModelCustomModel(ModelPart root) {
+		super(root);
 		this.frontr = root.getChild("frontr");
 		this.frontl = root.getChild("frontl");
 		this.backr = root.getChild("backr");
@@ -55,17 +53,13 @@ public class ModelCustomModel<T extends Entity> extends EntityModel<T> {
 		return LayerDefinition.create(meshdefinition, 32, 32);
 	}
 
-	@Override
-	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, int rgb) {
-		frontr.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
-		frontl.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
-		backr.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
-		backl.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
-		body.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
-		heaad.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
-	}
+	public void setupAnim(LivingEntityRenderState state) {
+		float limbSwing = state.walkAnimationPos;
+		float limbSwingAmount = state.walkAnimationSpeed;
+		float ageInTicks = state.ageInTicks;
+		float netHeadYaw = state.yRot;
+		float headPitch = state.xRot;
 
-	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		this.frontr.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
 		this.backl.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
 		this.backr.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;

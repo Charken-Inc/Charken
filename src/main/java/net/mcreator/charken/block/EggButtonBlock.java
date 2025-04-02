@@ -11,8 +11,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 public class EggButtonBlock extends ButtonBlock {
-	public EggButtonBlock() {
-		super(BlockSetType.STONE, 20, BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(0.5f));
+	public EggButtonBlock(BlockBehaviour.Properties properties) {
+		super(BlockSetType.STONE, 20, properties.sound(SoundType.WOOD).strength(0.5f));
 	}
 
 	@Override

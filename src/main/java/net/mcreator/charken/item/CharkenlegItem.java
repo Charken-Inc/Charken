@@ -11,8 +11,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
 public class CharkenlegItem extends Item {
-	public CharkenlegItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(15).saturationModifier(2.6f).build()));
+	public CharkenlegItem(Item.Properties properties) {
+		super(properties.rarity(Rarity.UNCOMMON).stacksTo(64).food((new FoodProperties.Builder()).nutrition(15).saturationModifier(2.6f).build()));
 	}
 
 	@Override

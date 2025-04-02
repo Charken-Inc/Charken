@@ -6,9 +6,7 @@
     "aa"
   ],
   "key": {
-    "a": {
-      "item": "charken:eggbrick"
-    }
+    "a": "charken:eggbrick"
   },
   "result": {
     "id": "charken:eggbricks",

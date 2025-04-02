@@ -5,9 +5,7 @@
     "a"
   ],
   "key": {
-    "a": {
-      "item": "charken:egg_log"
-    }
+    "a": "charken:egg_log"
   },
   "result": {
     "id": "charken:egg_planks",

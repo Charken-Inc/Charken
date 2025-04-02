@@ -1,0 +1,13 @@
+/summon charken:charken ~ ~ ~ {NoAI:1}
+/gamerule randomTickSpeed 999
+/gamerule randomTickSpeed 20
+/ride Dev mount
+/ride Dev mount 4809acf9-e938-47a3-aef0-144b7b72b20e
+/ride Dev mount 8dc38276-7f79-4880-8214-db9da95c3dca
+/ride Dev mount @n
+/ride Dev mount @n[type=!minecraft:player]
+/ride
+/ride 20bd78b3-f7fb-4ec1-991e-38a5c5fc5809
+/ride 20bd78b3-f7fb-4ec1-991e-38a5c5fc5809 mount 8dc38276-7f79-4880-8214-db9da95c3dca
+/ride 20bd78b3-f7fb-4ec1-991e-38a5c5fc5809 dismount 8dc38276-7f79-4880-8214-db9da95c3dca
+/ride 20bd78b3-f7fb-4ec1-991e-38a5c5fc5809 dismount

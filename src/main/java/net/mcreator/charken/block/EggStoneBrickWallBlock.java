@@ -11,12 +11,12 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.core.BlockPos;
 
 public class EggStoneBrickWallBlock extends WallBlock {
-	public EggStoneBrickWallBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1.5f, 6f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).forceSolidOn());
+	public EggStoneBrickWallBlock(BlockBehaviour.Properties properties) {
+		super(properties.sound(SoundType.STONE).strength(1.5f, 6f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).forceSolidOn());
 	}
 
 	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+	public int getLightBlock(BlockState state) {
 		return 0;
 	}
 

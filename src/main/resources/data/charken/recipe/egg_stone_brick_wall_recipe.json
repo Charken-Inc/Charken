@@ -6,9 +6,7 @@
     "aaa"
   ],
   "key": {
-    "a": {
-      "item": "charken:eggstonebricks"
-    }
+    "a": "charken:eggstonebricks"
   },
   "result": {
     "id": "charken:egg_stone_brick_wall",

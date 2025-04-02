@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.LiquidBlock;
 import net.mcreator.charken.init.CharkenModFluids;
 
 public class YolkliqBlock extends LiquidBlock {
-	public YolkliqBlock() {
-		super(CharkenModFluids.YOLKLIQ.get(), BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+	public YolkliqBlock(BlockBehaviour.Properties properties) {
+		super(CharkenModFluids.YOLKLIQ.get(), properties.mapColor(MapColor.WATER).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 }

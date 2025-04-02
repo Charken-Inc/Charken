@@ -10,7 +10,7 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.charken.CharkenMod;
 
 public class CharkenDiskItem extends Item {
-	public CharkenDiskItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(CharkenMod.MODID, "charken_disk"))));
+	public CharkenDiskItem(Item.Properties properties) {
+		super(properties.rarity(Rarity.RARE).stacksTo(1).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(CharkenMod.MODID, "charken_disk"))));
 	}
 }

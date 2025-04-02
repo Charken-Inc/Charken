@@ -6,12 +6,8 @@
     "aba"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:stick"
-    },
-    "b": {
-      "item": "charken:egg_planks"
-    }
+    "a": "minecraft:stick",
+    "b": "charken:egg_planks"
   },
   "result": {
     "id": "charken:egg_fence_gate",

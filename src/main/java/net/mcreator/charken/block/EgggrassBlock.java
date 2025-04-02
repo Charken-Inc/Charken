@@ -16,12 +16,12 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.charken.procedures.EgggrassOnTickUpdateProcedure;
 
 public class EgggrassBlock extends Block {
-	public EgggrassBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.WET_GRASS).strength(0.6f).randomTicks());
+	public EgggrassBlock(BlockBehaviour.Properties properties) {
+		super(properties.sound(SoundType.WET_GRASS).strength(0.6f).randomTicks());
 	}
 
 	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+	public int getLightBlock(BlockState state) {
 		return 15;
 	}
 

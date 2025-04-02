@@ -11,8 +11,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 public class EggPressurePlateBlock extends PressurePlateBlock {
-	public EggPressurePlateBlock() {
-		super(BlockSetType.IRON, BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(0.5f).forceSolidOn());
+	public EggPressurePlateBlock(BlockBehaviour.Properties properties) {
+		super(BlockSetType.IRON, properties.sound(SoundType.WOOD).strength(0.5f).forceSolidOn());
 	}
 
 	@Override
