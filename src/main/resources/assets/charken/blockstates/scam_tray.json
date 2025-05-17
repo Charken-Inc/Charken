@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "charken:block/scam_tray"
+    },
+    "facing=east": {
+      "model": "charken:block/scam_tray",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "charken:block/scam_tray",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "charken:block/scam_tray",
+      "y": 270
+    }
+  }
+}

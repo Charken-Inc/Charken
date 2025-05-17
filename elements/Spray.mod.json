@@ -1,0 +1,21 @@
+{
+  "_fv": 77,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Yolk"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:spray"
+    },
+    "igniteFire": false,
+    "power": 0.2,
+    "damage": 0.0,
+    "knockback": 0,
+    "entityModel": "Modelspray_Converted",
+    "customModelTexture": "spray.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

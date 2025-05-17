@@ -17,4 +17,5 @@ public class CharkenModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, CharkenMod.MODID);
 	public static final DeferredHolder<SoundEvent, SoundEvent> THE_TALE_OF_CHARKEN = REGISTRY.register("the_tale_of_charken", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("charken", "the_tale_of_charken")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> WOOD = REGISTRY.register("wood", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("charken", "wood")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> SPRAY = REGISTRY.register("spray", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("charken", "spray")));
 }

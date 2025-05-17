@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.charken.block.YolkliqBlock;
 import net.mcreator.charken.block.YolkblockBlock;
+import net.mcreator.charken.block.ScamTrayBlock;
+import net.mcreator.charken.block.PosterBlock;
 import net.mcreator.charken.block.EggstonebricksBlock;
 import net.mcreator.charken.block.EggstoneBlock;
 import net.mcreator.charken.block.EgggrassBlock;
@@ -33,6 +35,8 @@ import net.mcreator.charken.block.EggFenceGateBlock;
 import net.mcreator.charken.block.EggFenceBlock;
 import net.mcreator.charken.block.EggDoorBlock;
 import net.mcreator.charken.block.EggButtonBlock;
+import net.mcreator.charken.block.CharkenSignBlock;
+import net.mcreator.charken.block.CharkenEggBlock;
 import net.mcreator.charken.CharkenMod;
 
 import java.util.function.Function;
@@ -62,6 +66,10 @@ public class CharkenModBlocks {
 	public static final DeferredBlock<Block> EGG_DOOR = register("egg_door", EggDoorBlock::new);
 	public static final DeferredBlock<Block> EGG_TRAPDOOR = register("egg_trapdoor", EggTrapdoorBlock::new);
 	public static final DeferredBlock<Block> EGG_SLAB = register("egg_slab", EggSlabBlock::new);
+	public static final DeferredBlock<Block> CHARKEN_EGG = register("charken_egg", CharkenEggBlock::new);
+	public static final DeferredBlock<Block> CHARKEN_SIGN = register("charken_sign", CharkenSignBlock::new);
+	public static final DeferredBlock<Block> SCAM_TRAY = register("scam_tray", ScamTrayBlock::new);
+	public static final DeferredBlock<Block> POSTER = register("poster", PosterBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

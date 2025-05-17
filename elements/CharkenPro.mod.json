@@ -1,0 +1,16 @@
+{
+  "_fv": 77,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Charken Pro",
+    "pointOfInterest": {
+      "value": "CUSTOM:ScamTray"
+    },
+    "actionSound": {
+      "value": "block.bone_block.fall"
+    },
+    "hat": "Full",
+    "professionTextureFile": "chercprof.png",
+    "zombifiedProfessionTextureFile": "chercprof.png"
+  }
+}

@@ -51,6 +51,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.charken.procedures.CharkenOnEntityTickUpdateProcedure;
 import net.mcreator.charken.init.CharkenModEntities;
 
 public class CharkenEntity extends Monster {
@@ -136,6 +137,12 @@ public class CharkenEntity extends Monster {
 		super.mobInteract(sourceentity, hand);
 		sourceentity.startRiding(this);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		CharkenOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override

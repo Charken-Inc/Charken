@@ -16,16 +16,6 @@ public class EggButtonBlock extends ButtonBlock {
 	}
 
 	@Override
-	public boolean isSignalSource(BlockState state) {
-		return true;
-	}
-
-	@Override
-	public int getSignal(BlockState blockstate, BlockGetter blockAccess, BlockPos pos, Direction direction) {
-		return 15;
-	}
-
-	@Override
 	public boolean canConnectRedstone(BlockState state, BlockGetter world, BlockPos pos, Direction side) {
 		return true;
 	}

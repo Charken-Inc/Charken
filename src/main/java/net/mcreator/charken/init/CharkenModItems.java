@@ -17,12 +17,17 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.charken.item.YolkliqItem;
 import net.mcreator.charken.item.YolkItem;
 import net.mcreator.charken.item.RawcharkenLegItem;
+import net.mcreator.charken.item.RawChickenLegItem;
+import net.mcreator.charken.item.MovieSwordItem;
 import net.mcreator.charken.item.LassoItem;
 import net.mcreator.charken.item.IWantToKnowWhereMyWoodIsItem;
 import net.mcreator.charken.item.FlingshotItem;
 import net.mcreator.charken.item.EggbrickItem;
+import net.mcreator.charken.item.ChickenLegItem;
 import net.mcreator.charken.item.CharkenlegItem;
+import net.mcreator.charken.item.CharkenSprayItem;
 import net.mcreator.charken.item.CharkenDiskItem;
+import net.mcreator.charken.item.BladeItem;
 import net.mcreator.charken.CharkenMod;
 
 import java.util.function.Function;
@@ -63,6 +68,17 @@ public class CharkenModItems {
 	public static final DeferredItem<Item> EGG_DOOR = doubleBlock(CharkenModBlocks.EGG_DOOR);
 	public static final DeferredItem<Item> EGG_TRAPDOOR = block(CharkenModBlocks.EGG_TRAPDOOR);
 	public static final DeferredItem<Item> EGG_SLAB = block(CharkenModBlocks.EGG_SLAB);
+	public static final DeferredItem<Item> MOVIE_SWORD = register("movie_sword", MovieSwordItem::new);
+	public static final DeferredItem<Item> BLADE = register("blade", BladeItem::new);
+	public static final DeferredItem<Item> CHARKLEY_SPAWN_EGG = register("charkley_spawn_egg", properties -> new SpawnEggItem(CharkenModEntities.CHARKLEY.get(), properties));
+	public static final DeferredItem<Item> CHARKEN_EGG = block(CharkenModBlocks.CHARKEN_EGG);
+	public static final DeferredItem<Item> CHICKEN_LEG = register("chicken_leg", ChickenLegItem::new);
+	public static final DeferredItem<Item> RAW_CHICKEN_LEG = register("raw_chicken_leg", RawChickenLegItem::new);
+	public static final DeferredItem<Item> CHARKEN_SIGN = block(CharkenModBlocks.CHARKEN_SIGN);
+	public static final DeferredItem<Item> CHARKEN_SPRAY = register("charken_spray", CharkenSprayItem::new);
+	public static final DeferredItem<Item> SCAM_TRAY = block(CharkenModBlocks.SCAM_TRAY);
+	public static final DeferredItem<Item> GOATIN_SPAWN_EGG = register("goatin_spawn_egg", properties -> new SpawnEggItem(CharkenModEntities.GOATIN.get(), properties));
+	public static final DeferredItem<Item> POSTER = block(CharkenModBlocks.POSTER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

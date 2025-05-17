@@ -1,0 +1,9 @@
+{
+  "parent": "charken:custom/charksign",
+  "textures": {
+    "all": "charken:block/charksign",
+    "particle": "charken:block/charksign",
+    "0": "charken:block/charksign"
+  },
+  "render_type": "solid"
+}

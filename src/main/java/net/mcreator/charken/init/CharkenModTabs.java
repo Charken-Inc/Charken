@@ -50,9 +50,22 @@ public class CharkenModTabs {
 				tabData.accept(CharkenModBlocks.EGG_STAIRS.get().asItem());
 				tabData.accept(CharkenModBlocks.EGG_FENCE.get().asItem());
 				tabData.accept(CharkenModBlocks.EGG_FENCE_GATE.get().asItem());
+				tabData.accept(CharkenModBlocks.EGG_BUTTON.get().asItem());
+				tabData.accept(CharkenModBlocks.EGG_PRESSURE_PLATE.get().asItem());
 				tabData.accept(CharkenModBlocks.EGG_DOOR.get().asItem());
 				tabData.accept(CharkenModBlocks.EGG_TRAPDOOR.get().asItem());
 				tabData.accept(CharkenModBlocks.EGG_SLAB.get().asItem());
+				tabData.accept(CharkenModItems.MOVIE_SWORD.get());
+				tabData.accept(CharkenModItems.BLADE.get());
+				tabData.accept(CharkenModItems.CHARKLEY_SPAWN_EGG.get());
+				tabData.accept(CharkenModBlocks.CHARKEN_EGG.get().asItem());
+				tabData.accept(CharkenModItems.CHICKEN_LEG.get());
+				tabData.accept(CharkenModItems.RAW_CHICKEN_LEG.get());
+				tabData.accept(CharkenModBlocks.CHARKEN_SIGN.get().asItem());
+				tabData.accept(CharkenModItems.CHARKEN_SPRAY.get());
+				tabData.accept(CharkenModBlocks.SCAM_TRAY.get().asItem());
+				tabData.accept(CharkenModItems.GOATIN_SPAWN_EGG.get());
+				tabData.accept(CharkenModBlocks.POSTER.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -63,6 +76,10 @@ public class CharkenModTabs {
 			tabData.accept(CharkenModItems.FLINGSHOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(CharkenModItems.WARLM_SPAWN_EGG.get());
+			tabData.accept(CharkenModItems.GOATIN_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(CharkenModItems.CHICKEN_LEG.get());
+			tabData.accept(CharkenModItems.RAW_CHICKEN_LEG.get());
 		}
 	}
 }

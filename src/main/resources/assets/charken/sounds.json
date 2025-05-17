@@ -16,5 +16,14 @@
         "stream": false
       }
     ]
+  },
+  "spray": {
+    "subtitle": "subtitles.spray",
+    "sounds": [
+      {
+        "name": "charken:water-splash-290839-_mp3cut.net_",
+        "stream": false
+      }
+    ]
   }
 }

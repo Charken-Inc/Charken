@@ -12,6 +12,9 @@ import net.neoforged.api.distmarker.Dist;
 import net.mcreator.charken.client.renderer.YolktrienRenderer;
 import net.mcreator.charken.client.renderer.YolkproRenderer;
 import net.mcreator.charken.client.renderer.WarlmRenderer;
+import net.mcreator.charken.client.renderer.SprayRenderer;
+import net.mcreator.charken.client.renderer.GoatinRenderer;
+import net.mcreator.charken.client.renderer.CharkleyRenderer;
 import net.mcreator.charken.client.renderer.CharkenRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -22,5 +25,8 @@ public class CharkenModEntityRenderers {
 		event.registerEntityRenderer(CharkenModEntities.YOLKTRIEN.get(), YolktrienRenderer::new);
 		event.registerEntityRenderer(CharkenModEntities.YOLKPRO.get(), YolkproRenderer::new);
 		event.registerEntityRenderer(CharkenModEntities.WARLM.get(), WarlmRenderer::new);
+		event.registerEntityRenderer(CharkenModEntities.CHARKLEY.get(), CharkleyRenderer::new);
+		event.registerEntityRenderer(CharkenModEntities.SPRAY.get(), SprayRenderer::new);
+		event.registerEntityRenderer(CharkenModEntities.GOATIN.get(), GoatinRenderer::new);
 	}
 }

@@ -3,15 +3,15 @@
     {
       "name": "Charken",
       "type": "livingentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "charken",
       "metadata": {
         "files": [
           "src/main/resources/assets/charken/items/charken_spawn_egg.json",
           "src/main/java/net/mcreator/charken/entity/CharkenEntity.java",
-          "src/main/resources/data/charken/neoforge/biome_modifier/charken_biome_modifier.json",
-          "src/main/java/net/mcreator/charken/client/renderer/CharkenRenderer.java"
+          "src/main/java/net/mcreator/charken/client/renderer/CharkenRenderer.java",
+          "src/main/resources/data/charken/neoforge/biome_modifier/charken_biome_modifier.json"
         ]
       },
       "path": "~/Enities"
@@ -106,9 +106,9 @@
       "registry_name": "edward",
       "metadata": {
         "files": [
-          "src/main/resources/data/charken/worldgen/structure_set/edward.json",
+          "src/main/resources/data/charken/worldgen/structure/edward.json",
           "src/main/resources/data/charken/worldgen/template_pool/edward.json",
-          "src/main/resources/data/charken/worldgen/structure/edward.json"
+          "src/main/resources/data/charken/worldgen/structure_set/edward.json"
         ]
       },
       "path": "~/Structures"
@@ -121,9 +121,9 @@
       "registry_name": "charkenleg",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/charken/item/CharkenlegItem.java",
           "src/main/resources/assets/charken/items/charkenleg.json",
-          "src/main/resources/assets/charken/models/item/charkenleg.json",
-          "src/main/java/net/mcreator/charken/item/CharkenlegItem.java"
+          "src/main/resources/assets/charken/models/item/charkenleg.json"
         ]
       },
       "path": "~/Items"
@@ -136,8 +136,8 @@
       "registry_name": "rawcharken_leg",
       "metadata": {
         "files": [
-          "src/main/resources/assets/charken/items/rawcharken_leg.json",
           "src/main/resources/assets/charken/models/item/rawcharken_leg.json",
+          "src/main/resources/assets/charken/items/rawcharken_leg.json",
           "src/main/java/net/mcreator/charken/item/RawcharkenLegItem.java"
         ]
       },
@@ -165,8 +165,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/charken/worldgen/template_pool/eggorite.json",
-          "src/main/resources/data/charken/worldgen/structure_set/eggorite.json",
-          "src/main/resources/data/charken/worldgen/structure/eggorite.json"
+          "src/main/resources/data/charken/worldgen/structure/eggorite.json",
+          "src/main/resources/data/charken/worldgen/structure_set/eggorite.json"
         ]
       },
       "path": "~/Structures"
@@ -1325,6 +1325,502 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "EggButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_button_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EggPressureplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_pressureplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/egg_pressureplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MovieSword",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "movie_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/items/movie_sword.json",
+          "src/main/java/net/mcreator/charken/item/MovieSwordItem.java",
+          "src/main/resources/assets/charken/models/item/movie_sword.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Blade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/blade.json",
+          "src/main/resources/assets/charken/items/blade.json",
+          "src/main/java/net/mcreator/charken/item/BladeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Moviersword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moviersword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/movie_sword.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Blader",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blader",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/blader.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Charkley",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charkley",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/entity/CharkleyEntity.java",
+          "src/main/resources/data/charken/neoforge/biome_modifier/charkley_biome_modifier.json",
+          "src/main/resources/assets/charken/items/charkley_spawn_egg.json",
+          "src/main/java/net/mcreator/charken/client/renderer/CharkleyRenderer.java"
+        ]
+      },
+      "path": "~/Enities"
+    },
+    {
+      "name": "CharkenEgg",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charken_egg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/block/CharkenEggBlock.java",
+          "src/main/resources/assets/charken/models/item/charken_egg.json",
+          "src/main/resources/assets/charken/blockstates/charken_egg.json",
+          "src/main/java/net/mcreator/charken/block/entity/CharkenEggBlockEntity.java",
+          "src/main/resources/assets/charken/items/charken_egg.json",
+          "src/main/resources/assets/charken/models/block/charken_egg.json",
+          "src/main/resources/data/charken/loot_table/blocks/charken_egg.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ChickenLeg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_leg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/chicken_leg.json",
+          "src/main/java/net/mcreator/charken/item/ChickenLegItem.java",
+          "src/main/resources/assets/charken/items/chicken_leg.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "RawChickenLeg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_chicken_leg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/raw_chicken_leg.json",
+          "src/main/resources/assets/charken/items/raw_chicken_leg.json",
+          "src/main/java/net/mcreator/charken/item/RawChickenLegItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ChickenLegR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_leg_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/chicken_leg_r.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Chickenraw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chickenraw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/chickenraw.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Chcikenlegcook",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chcikenlegcook",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/chcikenlegcook.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CharkleyOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charkley_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/CharkleyOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enities"
+    },
+    {
+      "name": "CharkenPro",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charken_pro",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/textures/entity/villager/profession/charken_pro.png.mcmeta"
+        ]
+      },
+      "path": "~/Villager Professions"
+    },
+    {
+      "name": "CharkleyOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charkley_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/CharkleyOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enities"
+    },
+    {
+      "name": "RunFromTheDevils",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "run_from_the_devils",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Villager Professions"
+    },
+    {
+      "name": "CharkenSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charken_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/block/CharkenSignBlock.java",
+          "src/main/resources/data/charken/loot_table/blocks/charken_sign.json",
+          "src/main/resources/assets/charken/blockstates/charken_sign.json",
+          "src/main/resources/assets/charken/models/block/charken_sign.json",
+          "src/main/resources/assets/charken/models/item/charken_sign.json",
+          "src/main/resources/assets/charken/items/charken_sign.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Spray",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spray",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/client/renderer/SprayRenderer.java",
+          "src/main/java/net/mcreator/charken/entity/SprayEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CharkenSpray",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charken_spray",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/models/item/charken_spray.json",
+          "src/main/resources/assets/charken/items/charken_spray.json",
+          "src/main/java/net/mcreator/charken/item/CharkenSprayItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ScamTray",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scam_tray",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/blocks/scam_tray.json",
+          "src/main/resources/assets/charken/items/scam_tray.json",
+          "src/main/java/net/mcreator/charken/block/ScamTrayBlock.java",
+          "src/main/resources/assets/charken/models/block/scam_tray.json",
+          "src/main/resources/assets/charken/models/item/scam_tray.json",
+          "src/main/resources/assets/charken/blockstates/scam_tray.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ScamTrayRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scam_tray_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/scam_tray_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Goatin",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goatin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/client/renderer/GoatinRenderer.java",
+          "src/main/resources/assets/charken/items/goatin_spawn_egg.json",
+          "src/main/resources/data/charken/neoforge/biome_modifier/goatin_biome_modifier.json",
+          "src/main/java/net/mcreator/charken/entity/GoatinEntity.java"
+        ]
+      },
+      "path": "~/Enities"
+    },
+    {
+      "name": "CharkenEggOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charken_egg_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/CharkenEggOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CharkenEggBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charken_egg_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/CharkenEggBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Poster",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/blockstates/poster.json",
+          "src/main/java/net/mcreator/charken/block/PosterBlock.java",
+          "src/main/resources/data/charken/loot_table/blocks/poster.json",
+          "src/main/resources/assets/charken/items/poster.json",
+          "src/main/resources/assets/charken/models/item/poster.json",
+          "src/main/resources/assets/charken/models/block/poster.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ScamShackLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scam_shack_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/loot_table/chests/charken.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "ScamShack",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scam_shack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/worldgen/structure_set/scam_shack.json",
+          "src/main/resources/data/charken/worldgen/structure/scam_shack.json",
+          "src/main/resources/data/charken/worldgen/template_pool/scam_shack.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "CharkenOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charken_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/charken/procedures/CharkenOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enities"
     }
   ],
   "variable_elements": [],
@@ -1344,6 +1840,14 @@
       ],
       "category": "neutral",
       "subtitle": "I want to know where my wood is"
+    },
+    {
+      "name": "spray",
+      "files": [
+        "water-splash-290839-_mp3cut.net_"
+      ],
+      "category": "neutral",
+      "subtitle": "spray"
     }
   ],
   "tag_elements": {
@@ -1356,6 +1860,8 @@
       "~CUSTOM:Yolkliq"
     ],
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Blade",
+      "~CUSTOM:MovieSword",
       "~CUSTOM:Lasso"
     ],
     "BLOCKS:minecraft:logs": [
@@ -1394,6 +1900,8 @@
       "CUSTOM:Eggstone"
     ],
     "ITEMS:minecraft:meat": [
+      "~CUSTOM:RawChickenLeg",
+      "~CUSTOM:ChickenLeg",
       "~CUSTOM:RawcharkenLeg",
       "~CUSTOM:Charkenleg"
     ],
@@ -1452,13 +1960,15 @@
   "language_map": {
     "en_us": {
       "item.charken.eggbrick": "Egg Brick",
-      "item.charken.egg_slab": "Egg Planks",
+      "item.charken.egg_slab": "Egg Slab",
       "block.charken.eggstonebricks": "Egg Stone Bricks",
       "item.charken.i_want_to_know_where_my_wood_is": "I Want To Know Where My Wood Is",
+      "item.charken.blade": "Blade",
       "item.charken.egg_door": "Egg Door",
       "block.charken.egg_stairs": "Egg Stairs",
       "fluid.charken.yolkliq": "Yolk",
       "block.charken.egg_stone_brick_slab": "Egg Stone Brick Slab",
+      "subtitles.spray": "spray",
       "block.charken.eggdirt": "Egg Dirt",
       "block.charken.egg_log": "Egg Log",
       "block.charken.egg_planks": "Egg Planks",
@@ -1472,10 +1982,11 @@
       "item.charken.rawcharken_leg": "Rawcharken Leg",
       "advancements.a_very_eggy_place.descr": "Enter an egg biome",
       "item.charken.egg_stone_brick_wall": "Egg Stone Brick Wall",
-      "item.charken.egg_pressure_plate": "Egg Pressure Plate (Not Working)",
+      "item.charken.egg_pressure_plate": "Egg Pressure Plate",
       "advancements.a_very_eggy_place.title": "A Very Eggy Place",
       "item.charken.egg_fence_gate": "Egg Fence Gate",
       "item.charken.egg_leaves": "Egg Leaves",
+      "item.charken.scam_tray": "Not A Scam Tray",
       "block.charken.egg_stone_brick_stairs": "Egg Stone Brick Stairs",
       "advancements.how_could_you.title": "How Could You!!!",
       "block.charken.eggstone": "Egg Stone",
@@ -1488,28 +1999,39 @@
       "item.charken.yolktrien_spawn_egg": "Yolktrien Spawn Egg",
       "item.charken.egg_sapling": "Egg Sapling",
       "biome.charken.egg": "EGG",
+      "item.charken.movie_sword": "Movie Sword",
+      "item.charken.charken_spray": "Charken Spray",
       "item.charken.flingshot": "Flingshot",
+      "item.charken.charkley_spawn_egg": "Charkley Spawn Egg",
       "advancements.whatisthis.descr": "Find a lasso",
       "item.charken.charken_disk": "The Tale of Charken",
       "item.charken.egg_log": "Egg Log",
       "item.charken.egg_fence": "Egg Fence",
+      "item.charken.charken_egg": "Charken Egg",
+      "item.charken.raw_chicken_leg": "Raw Chicken Leg",
       "advancements.whatintheworldisthat.descr": "get hit by a Charken",
       "item.charken.charken_disk.desc": "The Tale of Charken",
+      "item.charken.chicken_leg": "Chicken Leg",
       "item.charken.eggdirt": "Egg Dirt",
+      "entity.charken.charkley": "Charkley",
       "advancements.yellowstone.title": "Yellowstone",
       "advancements.yellowstone.descr": "get a piece of yolk",
+      "item.charken.poster": "Poster",
       "block.charken.egg_leave": "Decaying Egg Leaves",
       "advancements.whatintheworldisthat.title": "What the!?!?!",
       "block.charken.egg_button": "Egg Button (NOT FUNCTIONAL)",
       "item.charken.egg_stairs": "Egg Stairs",
       "item.charken.i_want_to_know_where_my_wood_is.desc": "I want to know where my wood is Cover by Element Animations.",
+      "entity.charken.goatin": "Goatin",
+      "item.charken.charken_sign": "Charken Sign",
       "subtitles.the_tale_of_charken": "The Tale of Charken",
       "item.charken.egg_leave": "Decaying Egg Leaves",
       "item.charken.charken_spawn_egg": "Charken Spawn Egg",
       "item.charken.yolkliq_bucket": "Yolk Bucket",
       "item.charken.eggstone": "Egg Stone",
+      "item.charken.goatin_spawn_egg": "Goatin Spawn Egg",
       "item.charken.yolk": "Yolk",
-      "item.charken.egg_button": "Egg Button (NOT FUNCTIONAL)",
+      "item.charken.egg_button": "Egg Button",
       "item.charken.egg_planks": "Egg Planks",
       "item.charken.egg_stone_brick_stairs": "Egg Stone Brick Stairs",
       "entity.charken.yolktrien": "Yolktrien",
@@ -1525,6 +2047,7 @@
       "block.charken.yolkblock": "Yolk Block",
       "block.charken.egg_sapling": "Egg Sapling",
       "advancements.whatisthis.title": "Isnt this just a lead?",
+      "entity.minecraft.villager.charken.charken_pro": "Charken Pro",
       "subtitles.wood": "I want to know where my wood is",
       "entity.charken.charken": "Charken",
       "biome.charken.egg_forest": "EGG Forest",
@@ -1592,13 +2115,17 @@
       {
         "name": "Loot Tables",
         "children": []
+      },
+      {
+        "name": "Villager Professions",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "charken",
     "modName": "Charken",
-    "version": "1.5.2",
+    "version": "1.6.0",
     "description": "The Charken Mod",
     "author": "JacobA0225, Bumstronaut",
     "websiteURL": "https://modrinth.com/mod/charken",

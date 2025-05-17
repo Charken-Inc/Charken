@@ -1,0 +1,7 @@
+{
+  "parent": "charken:custom/charken_sprayfix_1",
+  "textures": {
+    "0": "charken:block/charkenspray",
+    "particle": "charken:item/charkenspray"
+  }
+}

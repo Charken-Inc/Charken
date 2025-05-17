@@ -35,7 +35,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Egg Pressure Plate (Not Working)",
+    "name": "Egg Pressure Plate",
     "specialInformation": {
       "fixedValue": []
     },
@@ -43,7 +43,11 @@
     "resistance": 0.5,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Chernkain"
+      }
+    ],
     "destroyTool": "axe",
     "customDrop": {
       "value": ""
@@ -61,7 +65,7 @@
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
-    "canProvidePower": true,
+    "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },

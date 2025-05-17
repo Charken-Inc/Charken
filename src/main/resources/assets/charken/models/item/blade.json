@@ -1,0 +1,7 @@
+{
+  "parent": "charken:custom/bladefrommcmovie",
+  "textures": {
+    "missing": "charken:block/iron",
+    "particle": "charken:item/iron"
+  }
+}

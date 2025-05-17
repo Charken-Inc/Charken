@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "charken:blade",
+    "charken:movie_sword",
     "charken:lasso"
   ]
 }

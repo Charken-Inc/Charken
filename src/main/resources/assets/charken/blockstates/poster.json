@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "charken:block/poster"
+    },
+    "facing=east": {
+      "model": "charken:block/poster",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "charken:block/poster",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "charken:block/poster",
+      "y": 270
+    }
+  }
+}

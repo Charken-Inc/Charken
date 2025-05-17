@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 10,
-    "separation": 9,
+    "spacing": 15,
+    "separation": 8,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:EGG"

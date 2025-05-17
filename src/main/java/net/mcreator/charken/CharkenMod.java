@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.charken.init.CharkenModVillagerProfessions;
 import net.mcreator.charken.init.CharkenModTabs;
 import net.mcreator.charken.init.CharkenModSounds;
 import net.mcreator.charken.init.CharkenModItems;
@@ -25,6 +26,7 @@ import net.mcreator.charken.init.CharkenModFluids;
 import net.mcreator.charken.init.CharkenModFluidTypes;
 import net.mcreator.charken.init.CharkenModEntities;
 import net.mcreator.charken.init.CharkenModBlocks;
+import net.mcreator.charken.init.CharkenModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -45,11 +47,12 @@ public class CharkenMod {
 		modEventBus.addListener(this::registerNetworking);
 		CharkenModSounds.REGISTRY.register(modEventBus);
 		CharkenModBlocks.REGISTRY.register(modEventBus);
-
+		CharkenModBlockEntities.REGISTRY.register(modEventBus);
 		CharkenModItems.REGISTRY.register(modEventBus);
 		CharkenModEntities.REGISTRY.register(modEventBus);
 		CharkenModTabs.REGISTRY.register(modEventBus);
 
+		CharkenModVillagerProfessions.PROFESSIONS.register(modEventBus);
 		CharkenModFluids.REGISTRY.register(modEventBus);
 		CharkenModFluidTypes.REGISTRY.register(modEventBus);
 
