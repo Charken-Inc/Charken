@@ -16,6 +16,7 @@ import net.mcreator.charken.client.model.Modelcharnken;
 import net.mcreator.charken.client.model.Modelcharkley1;
 import net.mcreator.charken.client.model.Modelcharkley;
 import net.mcreator.charken.client.model.ModelWarlm_normal;
+import net.mcreator.charken.client.model.ModelTurtken;
 import net.mcreator.charken.client.model.ModelGoatin;
 import net.mcreator.charken.client.model.ModelCustomModel;
 
@@ -23,6 +24,7 @@ import net.mcreator.charken.client.model.ModelCustomModel;
 public class CharkenModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(ModelTurtken.LAYER_LOCATION, ModelTurtken::createBodyLayer);
 		event.registerLayerDefinition(Modelcharnken.LAYER_LOCATION, Modelcharnken::createBodyLayer);
 		event.registerLayerDefinition(Modelyolkpro.LAYER_LOCATION, Modelyolkpro::createBodyLayer);
 		event.registerLayerDefinition(Modelcharkley1.LAYER_LOCATION, Modelcharkley1::createBodyLayer);

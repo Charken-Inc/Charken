@@ -20,11 +20,22 @@ public class EggSaplingOnTickUpdateProcedure {
 		double sz = 0;
 		if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.AIR) {
 			if (Mth.nextDouble(RandomSource.create(), 0, 100) <= 20) {
-				if (world instanceof ServerLevel _serverworld) {
-					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("charken", "egg_tree"));
-					if (template != null) {
-						template.placeInWorld(_serverworld, BlockPos.containing(x - 2, y, z - 2), BlockPos.containing(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-								_serverworld.random, 3);
+				if (Mth.nextDouble(RandomSource.create(), 0, 100) > 50) {
+					if (world instanceof ServerLevel _serverworld) {
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("charken", "egg_tree1"));
+						if (template != null) {
+							template.placeInWorld(_serverworld, BlockPos.containing(x - 2, y, z - 2), BlockPos.containing(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+									_serverworld.random, 3);
+						}
+					}
+				}
+				if (Mth.nextDouble(RandomSource.create(), 0, 100) <= 50) {
+					if (world instanceof ServerLevel _serverworld) {
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("charken", "egg_tree2"));
+						if (template != null) {
+							template.placeInWorld(_serverworld, BlockPos.containing(x - 2, y, z - 2), BlockPos.containing(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+									_serverworld.random, 3);
+						}
 					}
 				}
 			}

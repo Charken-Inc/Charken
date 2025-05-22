@@ -35,6 +35,7 @@ import net.mcreator.charken.block.EggFenceGateBlock;
 import net.mcreator.charken.block.EggFenceBlock;
 import net.mcreator.charken.block.EggDoorBlock;
 import net.mcreator.charken.block.EggButtonBlock;
+import net.mcreator.charken.block.CompressedSeaGrassBlockBlock;
 import net.mcreator.charken.block.CharkenSignBlock;
 import net.mcreator.charken.block.CharkenEggBlock;
 import net.mcreator.charken.CharkenMod;
@@ -70,6 +71,7 @@ public class CharkenModBlocks {
 	public static final DeferredBlock<Block> CHARKEN_SIGN = register("charken_sign", CharkenSignBlock::new);
 	public static final DeferredBlock<Block> SCAM_TRAY = register("scam_tray", ScamTrayBlock::new);
 	public static final DeferredBlock<Block> POSTER = register("poster", PosterBlock::new);
+	public static final DeferredBlock<Block> COMPRESSED_SEAGRASS_BLOCK = register("compressed_seagrass_block", CompressedSeaGrassBlockBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

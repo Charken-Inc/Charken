@@ -16,6 +16,9 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.charken.item.YolkliqItem;
 import net.mcreator.charken.item.YolkItem;
+import net.mcreator.charken.item.TurtkenSwordItem;
+import net.mcreator.charken.item.TurtkenShellItem;
+import net.mcreator.charken.item.TurtkenShellChunkItem;
 import net.mcreator.charken.item.RawcharkenLegItem;
 import net.mcreator.charken.item.RawChickenLegItem;
 import net.mcreator.charken.item.MovieSwordItem;
@@ -23,6 +26,7 @@ import net.mcreator.charken.item.LassoItem;
 import net.mcreator.charken.item.IWantToKnowWhereMyWoodIsItem;
 import net.mcreator.charken.item.FlingshotItem;
 import net.mcreator.charken.item.EggbrickItem;
+import net.mcreator.charken.item.CompressedSeaGrassItem;
 import net.mcreator.charken.item.ChickenLegItem;
 import net.mcreator.charken.item.CharkenlegItem;
 import net.mcreator.charken.item.CharkenSprayItem;
@@ -79,6 +83,12 @@ public class CharkenModItems {
 	public static final DeferredItem<Item> SCAM_TRAY = block(CharkenModBlocks.SCAM_TRAY);
 	public static final DeferredItem<Item> GOATIN_SPAWN_EGG = register("goatin_spawn_egg", properties -> new SpawnEggItem(CharkenModEntities.GOATIN.get(), properties));
 	public static final DeferredItem<Item> POSTER = block(CharkenModBlocks.POSTER);
+	public static final DeferredItem<Item> TURTKEN_SPAWN_EGG = register("turtken_spawn_egg", properties -> new SpawnEggItem(CharkenModEntities.TURTKEN.get(), properties));
+	public static final DeferredItem<Item> TURTKEN_SHELL = register("turtken_shell", TurtkenShellItem::new);
+	public static final DeferredItem<Item> TURTKEN_SHELL_CHUNK = register("turtken_shell_chunk", TurtkenShellChunkItem::new);
+	public static final DeferredItem<Item> COMPRESSED_SEAGRASS = register("compressed_seagrass", CompressedSeaGrassItem::new);
+	public static final DeferredItem<Item> COMPRESSED_SEAGRASS_BLOCK = block(CharkenModBlocks.COMPRESSED_SEAGRASS_BLOCK);
+	public static final DeferredItem<Item> TURTKEN_SWORD = register("turtken_sword", TurtkenSwordItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

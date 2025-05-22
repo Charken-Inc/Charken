@@ -21,6 +21,7 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.charken.entity.YolktrienEntity;
 import net.mcreator.charken.entity.YolkproEntity;
 import net.mcreator.charken.entity.WarlmEntity;
+import net.mcreator.charken.entity.TurtkenEntity;
 import net.mcreator.charken.entity.SprayEntity;
 import net.mcreator.charken.entity.GoatinEntity;
 import net.mcreator.charken.entity.CharkleyEntity;
@@ -33,11 +34,11 @@ public class CharkenModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<CharkenEntity>> CHARKEN = register("charken",
 			EntityType.Builder.<CharkenEntity>of(CharkenEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(70).setUpdateInterval(3)
 
-					.sized(0.6f, 1.8f));
+					.sized(2.55f, 2.7f));
 	public static final DeferredHolder<EntityType<?>, EntityType<YolktrienEntity>> YOLKTRIEN = register("yolktrien",
 			EntityType.Builder.<YolktrienEntity>of(YolktrienEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.6f, 0.3f));
+					.sized(0.6f, 0.2f));
 	public static final DeferredHolder<EntityType<?>, EntityType<YolkproEntity>> YOLKPRO = register("yolkpro",
 			EntityType.Builder.<YolkproEntity>of(YolkproEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<WarlmEntity>> WARLM = register("warlm",
@@ -47,13 +48,17 @@ public class CharkenModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<CharkleyEntity>> CHARKLEY = register("charkley",
 			EntityType.Builder.<CharkleyEntity>of(CharkleyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(70).setUpdateInterval(3)
 
-					.sized(0.6f, 1.8f));
+					.sized(1.8f, 2f));
 	public static final DeferredHolder<EntityType<?>, EntityType<SprayEntity>> SPRAY = register("spray",
 			EntityType.Builder.<SprayEntity>of(SprayEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<GoatinEntity>> GOATIN = register("goatin",
 			EntityType.Builder.<GoatinEntity>of(GoatinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1.7f, 3.2f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TurtkenEntity>> TURTKEN = register("turtken",
+			EntityType.Builder.<TurtkenEntity>of(TurtkenEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(70).setUpdateInterval(3)
+
+					.sized(2.3f, 2.3f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -68,6 +73,7 @@ public class CharkenModEntities {
 		WarlmEntity.init(event);
 		CharkleyEntity.init(event);
 		GoatinEntity.init(event);
+		TurtkenEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -77,5 +83,6 @@ public class CharkenModEntities {
 		event.put(WARLM.get(), WarlmEntity.createAttributes().build());
 		event.put(CHARKLEY.get(), CharkleyEntity.createAttributes().build());
 		event.put(GOATIN.get(), GoatinEntity.createAttributes().build());
+		event.put(TURTKEN.get(), TurtkenEntity.createAttributes().build());
 	}
 }

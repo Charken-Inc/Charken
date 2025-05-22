@@ -51,13 +51,15 @@ public class CharkenModBiomes {
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters().values());
 					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.6f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.6f),
-							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.7f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg")))));
+							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.5f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg")))));
 					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.6f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.6f),
-							Climate.Parameter.point(1.0f), Climate.Parameter.span(-0.7f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
+							Climate.Parameter.point(1.0f), Climate.Parameter.span(-0.5f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1.1f), Climate.Parameter.span(0.1f, 0.6f),
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 0.9f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg_forest")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1.1f), Climate.Parameter.span(0.1f, 0.6f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 0.9f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg_forest")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.6f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.6f),
+							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-0.5f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg")))));
 					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1f, 0.9f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg_caves")))));
 					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
@@ -70,6 +72,8 @@ public class CharkenModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
+						addSurfaceRule(surfaceRules, 1, anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg")), CharkenModBlocks.EGGGRASS.get().defaultBlockState(),
+								CharkenModBlocks.EGGDIRT.get().defaultBlockState(), CharkenModBlocks.EGGSTONE.get().defaultBlockState()));
 						addSurfaceRule(surfaceRules, 1, anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg_caves")), CharkenModBlocks.EGGSTONE.get().defaultBlockState(),
 								CharkenModBlocks.EGGSTONE.get().defaultBlockState(), CharkenModBlocks.EGGSTONE.get().defaultBlockState()));
 						addSurfaceRule(surfaceRules, 1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg")), CharkenModBlocks.EGGGRASS.get().defaultBlockState(),

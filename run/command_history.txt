@@ -1,0 +1,50 @@
+/setblock ~ ~ ~ chest{LootTable:"charken:chests/charken"}
+/tick freeze
+/tp 76e8c474-ecf0-4c88-b030-d8bac9e47c85
+/tp 76e8c474-ecf0-4c88-b030-d8bac9e47c85 Dev
+/tick step 5t
+/tp ~ ~ ~10000
+/locate structure charken:scam_shack
+/tp @s 1280 ~ 10880
+/tp ~ ~ ~10000
+/locate structure charken:scam_shack
+/tp @s 640 ~ 20480
+/tp ~ ~ ~1000
+/locate structure charken:scam_shack
+/tp @s -320 ~ 22400
+/locate structure charken:scam_shack
+/tp @s -640 ~ -640
+/locate structure charken:scam_shack
+/tp @s 896 ~ -832
+/tick rate 9999
+/give Dev charken:egg_leaves_test
+/give Dev charken:egg_leave
+/locate biome charken:egg_forest
+/tp @s -1303 -50 -1150
+/tp Dev ~ ~100000 ~
+/locate biome charken:egg_forest
+/tp Dev ~ ~-100000 ~
+/tp Dev ~ ~ ~10000000
+/locate biome charken:egg_forest
+/tp @s -306 -59 10000073
+/locate biome charken:egg_forest
+/tp @s -1381 112 1390
+/locate biome charken:egg_forest
+/tp @s 2153 87 -357
+/gamerule randomTickSpeed 200
+/gamerule randomTickSpeed 20
+/gamerule randomTickSpeed 200
+/gamerule randomTickSpeed 20
+/gamerule randomTickSpeed 200
+/fill 2152 86 -340
+/fill 2152 86 -340 2156 92 -336 minecraft:structure_void replace air
+/fill 2150 85 -329
+/fill 2150 85 -329 2146 90 -325 minecraft:structure_void replace air
+/setblock ~ ~ ~ charken:compressed_sea_grass_block
+/summon charken:yolktrien ~ ~ ~ {NoAI:1}
+/summon charken:charken ~ ~ ~ {NoAI:1}
+/summon charken:charkley ~ ~ ~ {NoAI:1}
+/summon charken:warlm ~ ~ ~ {NoAI:1}
+/summon charken:goatin ~ ~ ~ {NoAI:1}
+/effect give @e[type=charken:warlm] minecraft:glowing infinite
+/effect give @e[type=charken:warlm] minecraft:glowing infinite 1 true

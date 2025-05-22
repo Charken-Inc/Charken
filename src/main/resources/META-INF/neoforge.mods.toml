@@ -4,13 +4,13 @@ license="MIT License"
 
 [[mods]]
 modId="charken"
-version="1.6.0"
+version="1.6.1"
 displayName="Charken"
 displayURL="https://modrinth.com/mod/charken"
 logoFile="logo.png"
 credits="Created with MCreator. All Ideas and models by JacobA0225 and Bumstronaut"
 authors="JacobA0225, Bumstronaut"
-description="The Charken Mod"
+description="Enjoy the Charken mod and all of the other chaotic stuff in this mod."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

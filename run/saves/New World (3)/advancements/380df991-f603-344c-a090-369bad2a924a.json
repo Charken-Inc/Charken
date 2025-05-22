@@ -1,0 +1,24 @@
+{
+  "charken:a_very_eggy_place": {
+    "criteria": {
+      "a_very_eggy_place_1": "2025-05-20 11:41:42 -0500",
+      "a_very_eggy_place_0": "2025-05-20 11:41:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-05-20 11:41:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2025-05-20 11:41:29 -0500",
+      "minecraft:savanna": "2025-05-20 11:44:15 -0500",
+      "minecraft:wooded_badlands": "2025-05-20 11:43:54 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 4189
+}

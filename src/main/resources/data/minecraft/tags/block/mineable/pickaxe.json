@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "charken:compressed_seagrass_block",
     "charken:egg_stone_brick_slab",
     "charken:egg_stone_brick_wall",
     "charken:egg_stone_brick_stairs",

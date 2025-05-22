@@ -3,6 +3,5 @@
   "textures": {
     "all": "charken:block/egg_leaves",
     "particle": "charken:block/egg_leaves"
-  },
-  "render_type": "cutout_mipped"
+  }
 }

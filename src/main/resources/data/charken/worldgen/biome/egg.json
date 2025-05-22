@@ -76,7 +76,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "charken:egg_tree"
+    ],
     [
       "minecraft:freeze_top_layer"
     ]

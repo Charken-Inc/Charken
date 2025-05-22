@@ -1,7 +1,7 @@
 {
   "parent": "charken:custom/charkenleg",
   "textures": {
-    "1": "charken:block/charkencookedleg",
+    "1": "charken:block/coooked",
     "particle": "charken:item/coooked"
   }
 }

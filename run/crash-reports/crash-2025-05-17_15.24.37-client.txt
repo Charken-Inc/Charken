@@ -1,0 +1,184 @@
+---- Minecraft Crash Report ----
+// But it works on my machine.
+
+Time: 2025-05-17 15:24:37
+Description: Initializing game
+
+net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- Charken (charken) encountered an error while dispatching the net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterRenderers event
+	  org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181) ~[loader-6.0.11.jar%23161!/:6.0] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModLoader.lambda$postEvent$13(ModLoader.java:358) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-6.0.11.jar%23161!/:6.0] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModLoader.postEvent(ModLoader.java:358) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at TRANSFORMER/neoforge@21.4.123/net.neoforged.neoforge.client.ClientHooks.initClientHooks(ClientHooks.java:1013) ~[neoforge-21.4.123.jar%23250!/:?] {re:mixin,re:classloading,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.ClientHooksMixin from mod sodium,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.<init>(Minecraft.java:619) ~[neoforge-21.4.123.jar%23249!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaerominimap:xaero_minecraftclient,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaerominimap:xaero_minecraftclient,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaerominimap:xaero_minecraftclient,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReloadEnd from mod entity_model_features,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReloadStart from mod entity_model_features,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor from mod entity_model_features,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient from mod entity_texture_features,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinResourceReload from mod entity_texture_features,pl:mixin:APP:sodium-extra.mixins.json:core.MixinMinecraftClient from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor from mod sodium_extra,pl:mixin:APP:lithium-neoforge.mixins.json:startup.MinecraftMixin from mod lithium,pl:mixin:APP:modernfix-common.mixins.json:devenv.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-neoforge.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Images from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Keybinds from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_PipelineManagement from mod iris,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:dynamic_fps-common.mixins.json:MinecraftMixin from mod dynamic_fps,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:rrls.mixins.json:MinecraftClientMixin from mod rrls,pl:mixin:APP:skinlayers3d.mixins.json:HttpTextureMixin from mod skinlayers3d,pl:mixin:APP:konkrete.mixins.json:client.MixinMinecraft from mod konkrete,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks from mod (unknown),pl:mixin:APP:mixins.essential.json:client.MixinMinecraft from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInEmoteWheel from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld from mod (unknown),pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending from mod (unknown),pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent_Final from mod (unknown),pl:mixin:APP:mixins.essential.json:feature.emote.Mixin_AllowMovementDuringEmoteWheel_HandleKeybinds from mod (unknown),pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo from mod (unknown),pl:mixin:APP:modernfix-common.mixins.json:feature.remove_telemetry.MinecraftMixin_Telemetry from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:225) ~[neoforge-21.4.123.jar%23249!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.neoforged.devlaunch.Main.main(Main.java:55) [DevLaunch-1.0.1.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181) ~[loader-6.0.11.jar%23161!/:6.0] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModLoader.lambda$postEvent$13(ModLoader.java:358) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-6.0.11.jar%23161!/:6.0] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.ModLoader.postEvent(ModLoader.java:358) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at TRANSFORMER/neoforge@21.4.123/net.neoforged.neoforge.client.ClientHooks.initClientHooks(ClientHooks.java:1013) ~[neoforge-21.4.123.jar%23250!/:?] {re:mixin,re:classloading,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.ClientHooksMixin from mod sodium,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.<init>(Minecraft.java:619) ~[neoforge-21.4.123.jar%23249!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaerominimap:xaero_minecraftclient,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaerominimap:xaero_minecraftclient,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaerominimap:xaero_minecraftclient,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReloadEnd from mod entity_model_features,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReloadStart from mod entity_model_features,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor from mod entity_model_features,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient from mod entity_texture_features,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinResourceReload from mod entity_texture_features,pl:mixin:APP:sodium-extra.mixins.json:core.MixinMinecraftClient from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor from mod sodium_extra,pl:mixin:APP:lithium-neoforge.mixins.json:startup.MinecraftMixin from mod lithium,pl:mixin:APP:modernfix-common.mixins.json:devenv.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-neoforge.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Images from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Keybinds from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_PipelineManagement from mod iris,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:dynamic_fps-common.mixins.json:MinecraftMixin from mod dynamic_fps,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:rrls.mixins.json:MinecraftClientMixin from mod rrls,pl:mixin:APP:skinlayers3d.mixins.json:HttpTextureMixin from mod skinlayers3d,pl:mixin:APP:konkrete.mixins.json:client.MixinMinecraft from mod konkrete,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks from mod (unknown),pl:mixin:APP:mixins.essential.json:client.MixinMinecraft from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInEmoteWheel from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld from mod (unknown),pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending from mod (unknown),pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent_Final from mod (unknown),pl:mixin:APP:mixins.essential.json:feature.emote.Mixin_AllowMovementDuringEmoteWheel_HandleKeybinds from mod (unknown),pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo from mod (unknown),pl:mixin:APP:modernfix-common.mixins.json:feature.remove_telemetry.MinecraftMixin_Telemetry from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.main.Main.main(Main.java:225) ~[neoforge-21.4.123.jar%23249!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:128) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-6.0.11.jar%23161!/:6.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23138!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.neoforged.devlaunch.Main.main(Main.java:55) [DevLaunch-1.0.1.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.4
+	Minecraft Version ID: 1.21.4
+	Operating System: Linux (amd64) version 6.8.0-60-generic
+	Java Version: 21.0.5, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 217924096 bytes (207 MiB) / 1006632960 bytes (960 MiB) up to 16802381824 bytes (16024 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 4600G with Radeon Graphics
+	Identifier: AuthenticAMD Family 23 Model 96 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 4.31
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: AD107 [GeForce RTX 4060]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MiB): 288.00
+	Graphics card #0 deviceId: 0x2882
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 34088.65
+	Virtual memory used (MiB): 8191.54
+	Swap memory total (MiB): 2048.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 53878.21, total: 238774.31
+	Space in storage for workdir (MiB): available: 53878.21, total: 238774.31
+	JVM Flags: 0 total; 
+	Loaded Shaderpack: (off)
+	Launched Version: 21.4.123
+	Backend library: LWJGL version 3.3.3+5
+	Backend API: NVIDIA GeForce RTX 4060/PCIe/SSE2 GL version 4.6.0 NVIDIA 550.144.03, NVIDIA Corporation
+	Window size: <not initialized>
+	GFLW Platform: x11
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'neoforge'
+	Universe: 404
+	Type: Client (map_client.txt)
+	Locale: en_US
+	System encoding: UTF-8
+	File encoding: UTF-8
+	CPU: 12x AMD Ryzen 5 4600G with Radeon Graphics
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: neoforgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-6.0.11.jar slf4jfixer PLUGINSERVICE 
+		loader-6.0.11.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-11.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-6.0.11.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar essential-loader TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		kotlinforforge@5.7.0
+		javafml@6.0
+		lowcodefml@6.0
+		minecraft@6.0
+	Mod List: 
+		skinlayers3d-neoforge-1.7.5-mc1.21.4.jar          |3d-Skin-Layers                |skinlayers3d                  |1.7.5               |Manifest: NOSIGNATURE
+		appleskin-neoforge-mc1.21.3-3.0.6.jar             |AppleSkin                     |appleskin                     |3.0.6+mc1.21.3      |Manifest: NOSIGNATURE
+		BadOptimizations-2.2.2-1.21.2-21.5.jar            |BadOptimizations              |badoptimizations              |2.2.2               |Manifest: NOSIGNATURE
+		main                                              |Charken                       |charken                       |1.6.0               |Manifest: NOSIGNATURE
+		chat_heads-0.13.18-neoforge-1.21.4.jar            |Chat Heads                    |chat_heads                    |0.13.18             |Manifest: NOSIGNATURE
+		Chunky-NeoForge-1.4.27.jar                        |Chunky                        |chunky                        |1.4.27              |Manifest: NOSIGNATURE
+		cloth-config-17.0.144-neoforge.jar                |Cloth Config v17 API          |cloth_config                  |17.0.144            |Manifest: NOSIGNATURE
+		Controlling-neoforge-1.21.4-22.0.5.jar            |Controlling                   |controlling                   |22.0.5              |Manifest: NOSIGNATURE
+		dynamic-fps-3.9.4+minecraft-1.21.2-neoforge.jar   |Dynamic FPS                   |dynamic_fps                   |3.9.4               |Manifest: NOSIGNATURE
+		dynamic-torches-5.3.jar                           |Dynamic Lights                |mr_dynamic_torches            |5.3                 |Manifest: NOSIGNATURE
+		e4mc_minecraft-neoforge-5.3.1.jar                 |e4mc                          |e4mc_minecraft                |5.3.1               |Manifest: NOSIGNATURE
+		entity_model_features_neoforge_1.21.4-2.4.1.jar   |Entity Model Features         |entity_model_features         |2.4.1               |Manifest: NOSIGNATURE
+		entity_texture_features_neoforge_1.21.4-6.2.10.jar|Entity Texture Features       |entity_texture_features       |6.2.10              |Manifest: NOSIGNATURE
+		entityculling-neoforge-1.7.4-mc1.21.4.jar         |EntityCulling                 |entityculling                 |1.7.4               |Manifest: NOSIGNATURE
+		Essential (neoforge_1.21.4).jar                   |Essential                     |essential                     |1.3.6.2             |Manifest: NOSIGNATURE
+		ferritecore-7.1.2-neoforge.jar                    |Ferrite Core                  |ferritecore                   |7.1.2               |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		fabric-api-base-0.4.42+d1308ded19.jar             |Forgified Fabric API Base     |fabric_api_base               |0.4.42+d1308ded19   |Manifest: NOSIGNATURE
+		fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar    |Forgified Fabric BlockView API|fabric_block_view_api_v2      |1.0.10+9afaaf8c19   |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-5.0.0+babc52e504.jar       |Forgified Fabric Renderer API |fabric_renderer_api_v1        |5.0.0+babc52e504    |Manifest: NOSIGNATURE
+		fabric-rendering-data-attachment-v1-0.3.48+73761d2|Forgified Fabric Rendering Dat|fabric_rendering_data_attachme|0.3.48+73761d2e19   |Manifest: NOSIGNATURE
+		fusion-1.2.7b-neoforge-mc1.21.4.jar               |Fusion                        |fusion                        |1.2.7+b             |Manifest: NOSIGNATURE
+		ImmediatelyFast-NeoForge-1.8.0+1.21.4.jar         |ImmediatelyFast               |immediatelyfast               |1.8.0+1.21.4        |Manifest: NOSIGNATURE
+		iris-neoforge-1.8.8+mc1.21.4.jar                  |Iris                          |iris                          |1.8.8+mc1.21.4      |Manifest: NOSIGNATURE
+		konkrete_neoforge_1.9.9_MC_1.21.4.jar             |Konkrete                      |konkrete                      |1.9.9               |Manifest: NOSIGNATURE
+		kffmod-5.7.0.jar                                  |Kotlin For Forge              |kotlinforforge                |5.7.0               |Manifest: NOSIGNATURE
+		lithium-neoforge-0.15.3+mc1.21.4.jar              |Lithium                       |lithium                       |0.15.3+mc1.21.4     |Manifest: NOSIGNATURE
+		lithostitched-neoforge-1.21.4-1.4.5.jar           |Lithostitched                 |lithostitched                 |1.4.2               |Manifest: NOSIGNATURE
+		neoforge-21.4.123.jar                             |Minecraft                     |minecraft                     |1.21.4              |Manifest: NOSIGNATURE
+		modelfix-1.21.3-1.11.jar                          |Model Gap Fix                 |modelfix                      |1.21.3-1.11         |Manifest: NOSIGNATURE
+		modernfix-neoforge-5.20.3+mc1.21.4.jar            |ModernFix                     |modernfix                     |5.20.3+mc1.21.4     |Manifest: NOSIGNATURE
+		neoforge-21.4.123.jar                             |NeoForge                      |neoforge                      |21.4.123            |Manifest: NOSIGNATURE
+		noisium-neoforge-2.5.0+mc1.21.4.jar               |Noisium                       |noisium                       |2.5.0+mc1.21.4      |Manifest: NOSIGNATURE
+		reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar |Reese's Sodium Options        |reeses_sodium_options         |1.8.3+mc1.21.4      |Manifest: NOSIGNATURE
+		rrls-5.1.2+mc1.21.4-forge.jar                     |Remove Reloading Screen       |rrls                          |5.1.2+mc1.21.4-forge|Manifest: NOSIGNATURE
+		Resourcify (1.21.4-neoforge)-1.7.1.jar            |Resourcify                    |resourcify                    |1.7.1               |Manifest: NOSIGNATURE
+		Searchables-neoforge-1.21.4-1.0.3.jar             |Searchables                   |searchables                   |1.0.3               |Manifest: NOSIGNATURE
+		sodium-neoforge-0.6.13+mc1.21.4.jar               |Sodium                        |sodium                        |0.6.13+mc1.21.4     |Manifest: NOSIGNATURE
+		sodium-extra-neoforge-0.6.1+mc1.21.4.jar          |Sodium Extra                  |sodium_extra                  |0.6.1+mc1.21.4      |Manifest: NOSIGNATURE
+		tectonic-neoforge-1.21.4-2.4.3.jar                |Tectonic                      |tectonic                      |2.4.3               |Manifest: NOSIGNATURE
+		Xaeros_Minimap_25.2.6_NeoForge_1.21.4.jar         |Xaero's Minimap               |xaerominimap                  |25.2.6              |Manifest: NOSIGNATURE
+		XaerosWorldMap_1.39.4_NeoForge_1.21.4.jar         |Xaero's World Map             |xaeroworldmap                 |1.39.4              |Manifest: NOSIGNATURE
+	Crash Report UUID: fb744e70-0379-4a30-9c12-d84eb8601508
+	FML: 6.0.11
+	NeoForge: 21.4.123

@@ -18,9 +18,6 @@ public class EgggrassOnTickUpdateProcedure {
 			if (world.isEmptyBlock(BlockPos.containing(x, y + 1, z)) && (world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock() == CharkenModBlocks.EGGDIRT.get()) {
 				world.setBlock(BlockPos.containing(x + 1, y, z), CharkenModBlocks.EGGGRASS.get().defaultBlockState(), 3);
 			}
-			if (world.isEmptyBlock(BlockPos.containing(x, y + 1, z)) && (world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock() == CharkenModBlocks.EGGDIRT.get()) {
-				world.setBlock(BlockPos.containing(x - 1, y, z), CharkenModBlocks.EGGGRASS.get().defaultBlockState(), 3);
-			}
 			if (world.isEmptyBlock(BlockPos.containing(x, y + 1, z)) && (world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock() == CharkenModBlocks.EGGDIRT.get()) {
 				world.setBlock(BlockPos.containing(x, y, z - 1), CharkenModBlocks.EGGGRASS.get().defaultBlockState(), 3);
 			}

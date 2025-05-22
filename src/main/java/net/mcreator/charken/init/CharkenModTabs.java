@@ -67,6 +67,15 @@ public class CharkenModTabs {
 				tabData.accept(CharkenModItems.GOATIN_SPAWN_EGG.get());
 				tabData.accept(CharkenModBlocks.POSTER.get().asItem());
 			}).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> TURTKAIN = REGISTRY.register("turtkain",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.charken.turtkain")).icon(() -> new ItemStack(CharkenModItems.TURTKEN_SHELL.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(CharkenModItems.TURTKEN_SPAWN_EGG.get());
+				tabData.accept(CharkenModItems.TURTKEN_SHELL.get());
+				tabData.accept(CharkenModItems.TURTKEN_SHELL_CHUNK.get());
+				tabData.accept(CharkenModItems.COMPRESSED_SEAGRASS.get());
+				tabData.accept(CharkenModBlocks.COMPRESSED_SEAGRASS_BLOCK.get().asItem());
+				tabData.accept(CharkenModItems.TURTKEN_SWORD.get());
+			}).withTabsBefore(CHERNKAIN.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

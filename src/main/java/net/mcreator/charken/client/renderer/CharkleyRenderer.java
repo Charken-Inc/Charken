@@ -13,7 +13,7 @@ public class CharkleyRenderer extends MobRenderer<CharkleyEntity, LivingEntityRe
 	private CharkleyEntity entity = null;
 
 	public CharkleyRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelcharkley1(context.bakeLayer(Modelcharkley1.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelcharkley1(context.bakeLayer(Modelcharkley1.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

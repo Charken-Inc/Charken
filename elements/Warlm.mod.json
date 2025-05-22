@@ -141,13 +141,16 @@
     "spawningProbability": 18,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 3,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:EGGForest"
+      },
+      {
+        "value": "CUSTOM:EGG"
       }
     ],
-    "spawnInDungeons": true,
+    "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,
       3,

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "charken:turtken_shell",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "charken:turtken_sword",
+    "count": 1
+  }
+}

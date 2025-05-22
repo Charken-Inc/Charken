@@ -57,7 +57,7 @@
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "spawnBiome": true,
-    "spawnInCaves": false,
+    "spawnInCaves": true,
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": -0.5,
@@ -76,18 +76,18 @@
       "max": 0.6
     },
     "genWeirdness": {
-      "min": -0.7,
+      "min": -0.5,
       "max": 1.0
     },
-    "treesPerChunk": 0,
+    "treesPerChunk": 1,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": "Blocks.QUARTZ_BLOCK#2"
+      "value": "CUSTOM:EggLog"
     },
     "treeBranch": {
-      "value": "Blocks.QUARTZ_BLOCK#1"
+      "value": "CUSTOM:EggLeaves"
     },
     "treeVines": {
       "value": "Blocks.AIR"

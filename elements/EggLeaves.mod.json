@@ -16,11 +16,12 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Leaves",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": true,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -41,7 +42,7 @@
     "hardness": 0.2,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTabs": [
       {
         "value": "CUSTOM:Chernkain"

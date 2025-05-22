@@ -13,7 +13,7 @@ public class CharkenRenderer extends MobRenderer<CharkenEntity, LivingEntityRend
 	private CharkenEntity entity = null;
 
 	public CharkenRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelcharnken(context.bakeLayer(Modelcharnken.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelcharnken(context.bakeLayer(Modelcharnken.LAYER_LOCATION)), 1.5f);
 	}
 
 	@Override

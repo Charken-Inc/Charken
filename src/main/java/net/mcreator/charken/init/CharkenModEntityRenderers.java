@@ -12,6 +12,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.mcreator.charken.client.renderer.YolktrienRenderer;
 import net.mcreator.charken.client.renderer.YolkproRenderer;
 import net.mcreator.charken.client.renderer.WarlmRenderer;
+import net.mcreator.charken.client.renderer.TurtkenRenderer;
 import net.mcreator.charken.client.renderer.SprayRenderer;
 import net.mcreator.charken.client.renderer.GoatinRenderer;
 import net.mcreator.charken.client.renderer.CharkleyRenderer;
@@ -28,5 +29,6 @@ public class CharkenModEntityRenderers {
 		event.registerEntityRenderer(CharkenModEntities.CHARKLEY.get(), CharkleyRenderer::new);
 		event.registerEntityRenderer(CharkenModEntities.SPRAY.get(), SprayRenderer::new);
 		event.registerEntityRenderer(CharkenModEntities.GOATIN.get(), GoatinRenderer::new);
+		event.registerEntityRenderer(CharkenModEntities.TURTKEN.get(), TurtkenRenderer::new);
 	}
 }

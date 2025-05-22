@@ -1,7 +1,7 @@
 {
   "parent": "charken:custom/chicken_leg",
   "textures": {
-    "0": "charken:block/cooked",
+    "0": "charken:block/",
     "particle": "charken:item/charkenrawleg"
   }
 }
