@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "charken:block/yolk",
+    "up": "charken:block/yolk",
+    "north": "charken:block/yolk",
+    "east": "charken:block/yolk",
+    "south": "charken:block/yolk",
+    "west": "charken:block/yolk",
+    "particle": "charken:block/yolk"
+  },
+  "render_type": "solid"
+}

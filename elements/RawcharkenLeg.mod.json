@@ -2,9 +2,9 @@
   "_fv": 77,
   "_type": "item",
   "definition": {
-    "renderType": 1,
-    "texture": "rawwed",
-    "customModelName": "charkenlegraw:default",
+    "renderType": 0,
+    "texture": "charkenlegrawplaceholder",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
     "name": "Rawcharken Leg",

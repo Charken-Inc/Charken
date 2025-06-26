@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "charken:egg",
+    "charken:egg_forest",
+    "charken:egg_caves"
+  ],
+  "features": "charken:yolkblock",
+  "step": "underground_ores"
+}

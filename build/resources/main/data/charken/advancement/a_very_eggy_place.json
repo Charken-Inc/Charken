@@ -1,0 +1,52 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "minecraft:egg"
+    },
+    "title": {
+      "translate": "advancements.a_very_eggy_place.title"
+    },
+    "description": {
+      "translate": "advancements.a_very_eggy_place.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_very_eggy_place_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "charken:egg"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "a_very_eggy_place_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "charken:egg_forest"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

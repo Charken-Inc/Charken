@@ -19,7 +19,7 @@ import net.mcreator.charken.entity.YolkproEntity;
 
 public class FlingshotItem extends Item {
 	public FlingshotItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.COMMON).stacksTo(64));
+		super(properties.rarity(Rarity.COMMON).stacksTo(64).enchantable(14));
 	}
 
 	@Override

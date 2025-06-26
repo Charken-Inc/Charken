@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:oak_fence",
+    "b": "minecraft:string",
+    "c": "#minecraft:planks"
+  },
+  "result": {
+    "id": "charken:flingshot",
+    "count": 1
+  }
+}

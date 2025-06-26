@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "charken:block/egg_stone_brick_slab"
+    },
+    "type=top": {
+      "model": "charken:block/egg_stone_brick_slab_top"
+    },
+    "type=double": {
+      "model": "charken:block/egg_stone_brick_slab_full"
+    }
+  }
+}

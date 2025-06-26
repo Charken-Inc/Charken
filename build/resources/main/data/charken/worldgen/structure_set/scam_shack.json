@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "charken:scam_shack",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 26,
+    "separation": 19,
+    "salt": 1942812593
+  }
+}

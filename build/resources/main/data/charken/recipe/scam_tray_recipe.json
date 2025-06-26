@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:emerald",
+    "minecraft:composter"
+  ],
+  "result": {
+    "id": "charken:scam_tray",
+    "count": 1
+  }
+}

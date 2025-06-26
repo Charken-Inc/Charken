@@ -1,0 +1,7 @@
+{
+  "parent": "charken:custom/swordfrommcmovie",
+  "textures": {
+    "0": "charken:block/iron",
+    "particle": "charken:item/iron"
+  }
+}

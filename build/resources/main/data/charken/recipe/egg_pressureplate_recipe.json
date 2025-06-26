@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "charken:egg_planks"
+  },
+  "result": {
+    "id": "charken:egg_pressure_plate",
+    "count": 1
+  }
+}

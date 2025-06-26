@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "charken:charkenleg"
+    },
+    "title": {
+      "translate": "advancements.how_could_you.title"
+    },
+    "description": {
+      "translate": "advancements.how_could_you.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "how_could_you_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "charken:charkenleg"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "charken:a_very_eggy_place"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "charken:block/textureb",
+    "bottom": "charken:block/textureb",
+    "top": "charken:block/texturet"
+  },
+  "render_type": "cutout_mipped"
+}

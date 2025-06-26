@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "charken:egg_planks"
+  },
+  "result": {
+    "id": "charken:egg_button",
+    "count": 1
+  }
+}

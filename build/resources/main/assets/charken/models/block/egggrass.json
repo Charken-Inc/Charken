@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "charken:block/egg_grass_bottom",
+    "up": "charken:block/egg_grass_top",
+    "north": "charken:block/egg_grass_side",
+    "east": "charken:block/egg_grass_side",
+    "south": "charken:block/egg_grass_side",
+    "west": "charken:block/egg_grass_side",
+    "particle": "charken:block/egg_grass_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "charken:lasso"
+    },
+    "title": {
+      "translate": "advancements.whatisthis.title"
+    },
+    "description": {
+      "translate": "advancements.whatisthis.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "whatisthis_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "charken:lasso"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "charken:a_very_eggy_place"
+}

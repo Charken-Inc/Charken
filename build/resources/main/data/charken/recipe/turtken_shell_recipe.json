@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": "charken:turtken_shell_chunk"
+  },
+  "result": {
+    "id": "charken:turtken_shell",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:chicken"
+  },
+  "result": {
+    "id": "charken:raw_chicken_leg",
+    "count": 2
+  }
+}

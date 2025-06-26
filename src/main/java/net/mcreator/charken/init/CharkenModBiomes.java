@@ -54,9 +54,9 @@ public class CharkenModBiomes {
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.5f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg")))));
 					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.6f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.6f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-0.5f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1.1f), Climate.Parameter.span(0.1f, 0.6f),
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.03f, 1.1f), Climate.Parameter.span(-0.3f, 0.6f),
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 0.9f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg_forest")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1.1f), Climate.Parameter.span(0.1f, 0.6f),
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.6f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.03f, 1.1f), Climate.Parameter.span(-0.3f, 0.6f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 0.9f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg_forest")))));
 					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.6f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.6f),
 							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-0.5f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("charken", "egg")))));

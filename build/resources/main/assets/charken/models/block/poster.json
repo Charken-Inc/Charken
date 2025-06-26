@@ -1,0 +1,9 @@
+{
+  "parent": "charken:custom/posterfix",
+  "textures": {
+    "all": "charken:block/poster_1",
+    "particle": "charken:block/poster_1",
+    "0": "charken:block/poster_1"
+  },
+  "render_type": "solid"
+}

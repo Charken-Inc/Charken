@@ -1,0 +1,7 @@
+{
+  "parent": "charken:custom/flingshot",
+  "textures": {
+    "0": "charken:block/flinshoot",
+    "particle": "charken:item/flinshoot"
+  }
+}

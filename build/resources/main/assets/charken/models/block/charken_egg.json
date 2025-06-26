@@ -1,0 +1,9 @@
+{
+  "parent": "charken:custom/charken_egg",
+  "textures": {
+    "all": "charken:block/egg",
+    "particle": "charken:block/egg",
+    "0": "charken:block/egg"
+  },
+  "render_type": "solid"
+}

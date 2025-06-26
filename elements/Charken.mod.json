@@ -145,9 +145,15 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:EGG"
+      },
+      {
+        "value": "CUSTOM:EGGForest"
+      },
+      {
+        "value": "CUSTOM:EGGCaves"
       }
     ],
-    "spawnInDungeons": true,
+    "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,
       3,

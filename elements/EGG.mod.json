@@ -82,7 +82,7 @@
     "treesPerChunk": 1,
     "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 7,
+    "minHeight": 4,
     "treeStem": {
       "value": "CUSTOM:EggLog"
     },

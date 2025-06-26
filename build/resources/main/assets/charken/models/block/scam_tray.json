@@ -1,0 +1,9 @@
+{
+  "parent": "charken:custom/scamtray_1",
+  "textures": {
+    "all": "charken:block/standish",
+    "particle": "charken:block/standish",
+    "0": "charken:block/standish"
+  },
+  "render_type": "solid"
+}

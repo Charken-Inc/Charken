@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "charken:block/brickegg",
+    "up": "charken:block/brickegg",
+    "north": "charken:block/brickegg",
+    "east": "charken:block/brickegg",
+    "south": "charken:block/brickegg",
+    "west": "charken:block/brickegg",
+    "particle": "charken:block/brickegg"
+  },
+  "render_type": "solid"
+}

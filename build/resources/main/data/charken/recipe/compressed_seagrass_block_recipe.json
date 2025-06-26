@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "charken:compressed_seagrass",
+    "b": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "charken:compressed_seagrass_block",
+    "count": 1
+  }
+}

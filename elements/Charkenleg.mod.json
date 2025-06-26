@@ -2,9 +2,9 @@
   "_fv": 77,
   "_type": "item",
   "definition": {
-    "renderType": 1,
-    "texture": "coooked",
-    "customModelName": "charkenleg:default",
+    "renderType": 0,
+    "texture": "charkenlegcookedplaceholder",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
     "name": "Charkenleg",

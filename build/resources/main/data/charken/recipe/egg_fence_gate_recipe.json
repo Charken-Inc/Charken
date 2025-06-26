@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "charken:egg_planks"
+  },
+  "result": {
+    "id": "charken:egg_fence_gate",
+    "count": 1
+  }
+}

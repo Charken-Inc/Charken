@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "charken:egg_forest",
+    "charken:egg"
+  ],
+  "spawners": {
+    "type": "charken:warlm",
+    "weight": 18,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

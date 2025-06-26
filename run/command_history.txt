@@ -1,11 +1,3 @@
-/setblock ~ ~ ~ chest{LootTable:"charken:chests/charken"}
-/tick freeze
-/tp 76e8c474-ecf0-4c88-b030-d8bac9e47c85
-/tp 76e8c474-ecf0-4c88-b030-d8bac9e47c85 Dev
-/tick step 5t
-/tp ~ ~ ~10000
-/locate structure charken:scam_shack
-/tp @s 1280 ~ 10880
 /tp ~ ~ ~10000
 /locate structure charken:scam_shack
 /tp @s 640 ~ 20480
@@ -48,3 +40,11 @@
 /summon charken:goatin ~ ~ ~ {NoAI:1}
 /effect give @e[type=charken:warlm] minecraft:glowing infinite
 /effect give @e[type=charken:warlm] minecraft:glowing infinite 1 true
+/locate biome charken:egg
+/tp @s -16 115 -50
+/locate biome charken:egg
+/locate biome charken:egg_forest
+/tp @s -76 141 -155
+/locate biome charken:egg_caves
+/tp @s -72 3 -241
+/execute in minecraft:the_end run tp Dev 0 0 0
