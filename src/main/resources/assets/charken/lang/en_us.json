@@ -119,5 +119,7 @@
   "item.charken.yolk_infused_netherite_armor_chestplate": "Yolk Infused Netherite Chestplate",
   "item.charken.yolk_infused_netherite_armor_leggings": "Yolk Infused Netherite Leggings",
   "item.charken.yolk_infused_netherite_armor_boots": "Yolk Infused Netherite Boots",
-  "item.charken.yolk_infused_netherite_armor_helmet": "Yolk Infused Netherite Helmet"
+  "item.charken.yolk_infused_netherite_armor_helmet": "Yolk Infused Netherite Helmet",
+  "advancements.what_now.title": "A Very Eggy Place",
+  "advancements.what_now.descr": "Enter an egg biome"
 }

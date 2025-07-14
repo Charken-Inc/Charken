@@ -14,11 +14,11 @@
     "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
-    "rewardXP": 0,
+    "rewardXP": 2,
     "achievementType": "task",
     "parent": {
       "value": "No parent: root"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:EGG</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:EGGForest</field></block></next></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:EGG</field></block></next></block><block type=\"biome_entered\" x=\"743\" y=\"206\"><field name=\"biome\">CUSTOM:EGGForest</field></block></xml>"
   }
 }

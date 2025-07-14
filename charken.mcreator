@@ -2462,6 +2462,19 @@
         ]
       },
       "path": "~/Armor/Recipes/Netherite"
+    },
+    {
+      "name": "WhatNow",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what_now",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/what_now.json"
+        ]
+      },
+      "path": "~/Achievements"
     }
   ],
   "variable_elements": [],
@@ -2826,7 +2839,9 @@
       "item.charken.yolk_infused_netherite_armor_chestplate": "Yolk Infused Netherite Chestplate",
       "item.charken.yolk_infused_netherite_armor_leggings": "Yolk Infused Netherite Leggings",
       "item.charken.yolk_infused_netherite_armor_boots": "Yolk Infused Netherite Boots",
-      "item.charken.yolk_infused_netherite_armor_helmet": "Yolk Infused Netherite Helmet"
+      "item.charken.yolk_infused_netherite_armor_helmet": "Yolk Infused Netherite Helmet",
+      "advancements.what_now.title": "What now a forest of egg. WAIT WHAT!?!?!",
+      "advancements.what_now.descr": "Enter an egg forest biome"
     }
   },
   "metadata": {

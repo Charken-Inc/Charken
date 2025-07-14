@@ -1686,7 +1686,7 @@
           "src/main/resources/assets/charken/items/goatin_spawn_egg.json"
         ]
       },
-      "path": "~/Enities"
+      "path": "~/Goatin"
     },
     {
       "name": "CharkenEggOnTickUpdate",
@@ -2099,20 +2099,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "YolkInfuser",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "yolk_infuser",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/charken/client/gui/YolkInfuserScreen.java",
-          "src/main/java/net/mcreator/charken/world/inventory/YolkInfuserMenu.java"
-        ]
-      },
-      "path": "~/WIP"
-    },
-    {
       "name": "TurtkenRightClickedOnEntity",
       "type": "procedure",
       "compiles": true,
@@ -2185,7 +2171,7 @@
           "src/main/resources/assets/charken/models/item/yolk_infused_iron_armor_chestplate.json"
         ]
       },
-      "path": "~/WIP/Armor"
+      "path": "~/Armor"
     },
     {
       "name": "YolkInfusedGoldArmor",
@@ -2207,7 +2193,7 @@
           "src/main/resources/assets/charken/items/yolk_infused_gold_armor_leggings.json"
         ]
       },
-      "path": "~/WIP/Armor"
+      "path": "~/Armor"
     },
     {
       "name": "YolkInfusedDiamondArmor",
@@ -2229,7 +2215,253 @@
           "src/main/resources/assets/charken/models/item/yolk_infused_diamond_armor_helmet.json"
         ]
       },
-      "path": "~/WIP/Armor"
+      "path": "~/Armor"
+    },
+    {
+      "name": "YolkInfusedNetheriteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_infused_netherite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/charken/equipment/yolk_infused_netherite_armor.json",
+          "src/main/resources/assets/charken/models/item/yolk_infused_netherite_armor_helmet.json",
+          "src/main/resources/assets/charken/models/item/yolk_infused_netherite_armor_leggings.json",
+          "src/main/resources/assets/charken/models/item/yolk_infused_netherite_armor_chestplate.json",
+          "src/main/resources/assets/charken/items/yolk_infused_netherite_armor_leggings.json",
+          "src/main/java/net/mcreator/charken/item/YolkInfusedNetheriteArmorItem.java",
+          "src/main/resources/assets/charken/items/yolk_infused_netherite_armor_helmet.json",
+          "src/main/resources/assets/charken/items/yolk_infused_netherite_armor_boots.json",
+          "src/main/resources/assets/charken/items/yolk_infused_netherite_armor_chestplate.json",
+          "src/main/resources/assets/charken/models/item/yolk_infused_netherite_armor_boots.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "YolkIronBoot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_iron_boot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/yolk_iron_boot.json",
+          "src/main/resources/data/charken/advancement/recipes/yolk_iron_boot.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Iron"
+    },
+    {
+      "name": "YolkIronLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_iron_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/recipes/yolk_iron_leggings.json",
+          "src/main/resources/data/charken/recipe/yolk_iron_leggings.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Iron"
+    },
+    {
+      "name": "YolkIronChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_iron_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/recipes/yolk_iron_chestplate.json",
+          "src/main/resources/data/charken/recipe/yolk_iron_chestplate.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Iron"
+    },
+    {
+      "name": "YolkIronHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_iron_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/yolk_iron_helmet.json",
+          "src/main/resources/data/charken/advancement/recipes/yolk_iron_helmet.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Iron"
+    },
+    {
+      "name": "YolkGoldBoot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_gold_boot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/recipes/yolk_gold_boot.json",
+          "src/main/resources/data/charken/recipe/yolk_gold_boot.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Gold"
+    },
+    {
+      "name": "YolkGoldLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_gold_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/recipes/yolk_gold_leggings.json",
+          "src/main/resources/data/charken/recipe/yolk_gold_leggings.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Gold"
+    },
+    {
+      "name": "YolkGoldChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_gold_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/recipes/yolk_gold_chestplate.json",
+          "src/main/resources/data/charken/recipe/yolk_gold_chestplate.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Gold"
+    },
+    {
+      "name": "YolkGoldHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_gold_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/yolk_gold_helmet.json",
+          "src/main/resources/data/charken/advancement/recipes/yolk_gold_helmet.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Gold"
+    },
+    {
+      "name": "YolkDiamondBoot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_diamond_boot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/yolk_diamond_boot.json",
+          "src/main/resources/data/charken/advancement/recipes/yolk_diamond_boot.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Diamond"
+    },
+    {
+      "name": "YolkDiamondLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_diamond_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/recipes/yolk_diamond_leggings.json",
+          "src/main/resources/data/charken/recipe/yolk_diamond_leggings.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Diamond"
+    },
+    {
+      "name": "YolkDiamondChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_diamond_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/recipes/yolk_diamond_chestplate.json",
+          "src/main/resources/data/charken/recipe/yolk_diamond_chestplate.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Diamond"
+    },
+    {
+      "name": "YolkDiamondHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_diamond_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/yolk_diamond_helmet.json",
+          "src/main/resources/data/charken/advancement/recipes/yolk_diamond_helmet.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Diamond"
+    },
+    {
+      "name": "YolkNetheriteBoot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_netherite_boot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/yolk_netherite_boot.json",
+          "src/main/resources/data/charken/advancement/recipes/yolk_netherite_boot.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Netherite"
+    },
+    {
+      "name": "YolkNetheriteLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_netherite_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/recipes/yolk_netherite_leggings.json",
+          "src/main/resources/data/charken/recipe/yolk_netherite_leggings.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Netherite"
+    },
+    {
+      "name": "YolkNetheriteChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_netherite_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/recipe/yolk_netherite_chestplate.json",
+          "src/main/resources/data/charken/advancement/recipes/yolk_netherite_chestplate.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Netherite"
+    },
+    {
+      "name": "YolkNetheriteHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yolk_netherite_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/charken/advancement/recipes/yolk_netherite_helmet.json",
+          "src/main/resources/data/charken/recipe/yolk_netherite_helmet.json"
+        ]
+      },
+      "path": "~/Armor/Recipes/Netherite"
     }
   ],
   "variable_elements": [],
@@ -2380,21 +2612,25 @@
       "~CUSTOM:Turtken"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:YolkInfusedNetheriteArmor.helmet",
       "~CUSTOM:YolkInfusedDiamondArmor.helmet",
       "~CUSTOM:YolkInfusedGoldArmor.helmet",
       "~CUSTOM:YolkInfusedIronArmor.helmet"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:YolkInfusedNetheriteArmor.body",
       "~CUSTOM:YolkInfusedDiamondArmor.body",
       "~CUSTOM:YolkInfusedGoldArmor.body",
       "~CUSTOM:YolkInfusedIronArmor.body"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:YolkInfusedNetheriteArmor.legs",
       "~CUSTOM:YolkInfusedDiamondArmor.legs",
       "~CUSTOM:YolkInfusedGoldArmor.legs",
       "~CUSTOM:YolkInfusedIronArmor.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:YolkInfusedNetheriteArmor.boots",
       "~CUSTOM:YolkInfusedDiamondArmor.boots",
       "~CUSTOM:YolkInfusedGoldArmor.boots",
       "~CUSTOM:YolkInfusedIronArmor.boots"
@@ -2410,6 +2646,10 @@
     "ITEMS:charken:yolk_infused_diamond_armor_repair_items": [
       "~CUSTOM:Yolk",
       "~Items.DIAMOND"
+    ],
+    "ITEMS:charken:yolk_infused_netherite_armor_repair_items": [
+      "~CUSTOM:Yolk",
+      "~Items.NETHERITE_INGOT"
     ]
   },
   "tab_element_order": {
@@ -2459,7 +2699,9 @@
       "MovieSword",
       "Blade",
       "YolkInfusedIronArmor",
-      "YolkInfusedDiamondArmor"
+      "YolkInfusedDiamondArmor",
+      "YolkInfusedGoldArmor",
+      "YolkInfusedNetheriteArmor"
     ]
   },
   "language_map": {
@@ -2568,20 +2810,23 @@
       "fluid_type.charken.yolkliq": "Yolk",
       "item.charken.yolk_block": "Yolk Block",
       "item.charken.yolk_ore": "Yolk Ore",
-      "gui.charken.yolk_infuser.label_yolk_infuser": "Yolk Infuser",
       "entity.charken.turtken_tamed": "Turtken",
-      "item.charken.yolk_infused_iron_armor_boots": "Yolk Infused Iron Armor Boots",
-      "item.charken.yolk_infused_iron_armor_chestplate": "Yolk Infused Iron Armor Chestplate",
-      "item.charken.yolk_infused_iron_armor_helmet": "Yolk Infused Iron Armor Helmet",
-      "item.charken.yolk_infused_iron_armor_leggings": "Yolk Infused Iron Armor Leggings",
-      "item.charken.yolk_infused_gold_armor_boots": "Yolk Infused Gold Armor Boots",
-      "item.charken.yolk_infused_gold_armor_helmet": "Yolk Infused Gold Armor Helmet",
-      "item.charken.yolk_infused_gold_armor_leggings": "Yolk Infused Gold Armor Leggings",
-      "item.charken.yolk_infused_gold_armor_chestplate": "Yolk Infused Gold Armor Chestplate",
-      "item.charken.yolk_infused_diamond_armor_helmet": "Yolk Infused Diamond Armor Helmet",
-      "item.charken.yolk_infused_diamond_armor_chestplate": "Yolk Infused Diamond Armor Chestplate",
-      "item.charken.yolk_infused_diamond_armor_leggings": "Yolk Infused Diamond Armor Leggings",
-      "item.charken.yolk_infused_diamond_armor_boots": "Yolk Infused Diamond Armor Boots"
+      "item.charken.yolk_infused_iron_armor_boots": "Yolk Infused Iron Boots",
+      "item.charken.yolk_infused_iron_armor_chestplate": "Yolk Infused Iron Chestplate",
+      "item.charken.yolk_infused_iron_armor_helmet": "Yolk Infused Iron Helmet",
+      "item.charken.yolk_infused_iron_armor_leggings": "Yolk Infused Iron Leggings",
+      "item.charken.yolk_infused_gold_armor_boots": "Yolk Infused Gold Boots",
+      "item.charken.yolk_infused_gold_armor_helmet": "Yolk Infused Gold Helmet",
+      "item.charken.yolk_infused_gold_armor_leggings": "Yolk Infused Gold Leggings",
+      "item.charken.yolk_infused_gold_armor_chestplate": "Yolk Infused Gold Chestplate",
+      "item.charken.yolk_infused_diamond_armor_helmet": "Yolk Infused Diamond Helmet",
+      "item.charken.yolk_infused_diamond_armor_chestplate": "Yolk Infused Diamond Chestplate",
+      "item.charken.yolk_infused_diamond_armor_leggings": "Yolk Infused Diamond Leggings",
+      "item.charken.yolk_infused_diamond_armor_boots": "Yolk Infused Diamond Boots",
+      "item.charken.yolk_infused_netherite_armor_chestplate": "Yolk Infused Netherite Chestplate",
+      "item.charken.yolk_infused_netherite_armor_leggings": "Yolk Infused Netherite Leggings",
+      "item.charken.yolk_infused_netherite_armor_boots": "Yolk Infused Netherite Boots",
+      "item.charken.yolk_infused_netherite_armor_helmet": "Yolk Infused Netherite Helmet"
     }
   },
   "metadata": {
@@ -2599,9 +2844,6 @@
       "src/main/java/net/mcreator/charken/init/CharkenModBiomes.java",
       "src/main/java/net/mcreator/charken/init/CharkenModFluids.java",
       "src/main/java/net/mcreator/charken/init/CharkenModFluidTypes.java",
-      "src/main/java/net/mcreator/charken/init/CharkenModMenus.java",
-      "src/main/java/net/mcreator/charken/network/MenuStateUpdateMessage.java",
-      "src/main/java/net/mcreator/charken/init/CharkenModScreens.java",
       "src/main/java/net/mcreator/charken/init/CharkenModVillagerProfessions.java",
       "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/charken/init/CharkenModTrades.java",
@@ -2723,16 +2965,37 @@
         "children": []
       },
       {
-        "name": "WIP",
+        "name": "Yolk Stuff",
+        "children": []
+      },
+      {
+        "name": "Armor",
         "children": [
           {
-            "name": "Armor",
-            "children": []
+            "name": "Recipes",
+            "children": [
+              {
+                "name": "Iron",
+                "children": []
+              },
+              {
+                "name": "Gold",
+                "children": []
+              },
+              {
+                "name": "Diamond",
+                "children": []
+              },
+              {
+                "name": "Netherite",
+                "children": []
+              }
+            ]
           }
         ]
       },
       {
-        "name": "Yolk Stuff",
+        "name": "Goatin",
         "children": []
       }
     ]
@@ -2740,7 +3003,7 @@
   "workspaceSettings": {
     "modid": "charken",
     "modName": "Charken",
-    "version": "1.6.4",
+    "version": "1.7.0",
     "description": "Enjoy the Charken mod and all of the other chaotic stuff in this mod.",
     "author": "JacobA0225, Bumstronaut",
     "websiteURL": "https://modrinth.com/mod/charken",
@@ -2755,5 +3018,5 @@
     "credits": "Created with MCreator. All Ideas and models by JacobA0225 and Bumstronaut",
     "modElementsPackage": "net.mcreator.charken"
   },
-  "mcreatorVersion": 202500226612
+  "mcreatorVersion": 202500228610
 }
