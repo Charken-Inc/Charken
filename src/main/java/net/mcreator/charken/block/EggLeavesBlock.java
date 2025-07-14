@@ -1,4 +1,3 @@
-
 package net.mcreator.charken.block;
 
 import net.minecraft.world.level.material.PushReaction;
@@ -17,7 +16,7 @@ import net.mcreator.charken.init.CharkenModBlocks;
 
 public class EggLeavesBlock extends LeavesBlock {
 	public EggLeavesBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.GRASS).strength(0.2f, 10f).noOcclusion().pushReaction(PushReaction.DESTROY));
+		super(properties.sound(SoundType.GRASS).strength(0.2f, 10f).noOcclusion().pushReaction(PushReaction.DESTROY).isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
 	}
 
 	@Override

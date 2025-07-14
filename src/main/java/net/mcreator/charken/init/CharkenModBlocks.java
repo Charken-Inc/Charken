@@ -1,4 +1,3 @@
-
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -12,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.charken.block.YolkliqBlock;
 import net.mcreator.charken.block.YolkblockBlock;
+import net.mcreator.charken.block.YolkOreBlock;
 import net.mcreator.charken.block.ScamTrayBlock;
 import net.mcreator.charken.block.PosterBlock;
 import net.mcreator.charken.block.EggstonebricksBlock;
@@ -48,7 +48,7 @@ public class CharkenModBlocks {
 	public static final DeferredBlock<Block> EGGSTONEBRICKS = register("eggstonebricks", EggstonebricksBlock::new);
 	public static final DeferredBlock<Block> EGGGRASS = register("egggrass", EgggrassBlock::new);
 	public static final DeferredBlock<Block> EGGDIRT = register("eggdirt", EggdirtBlock::new);
-	public static final DeferredBlock<Block> YOLKBLOCK = register("yolkblock", YolkblockBlock::new);
+	public static final DeferredBlock<Block> YOLK_BLOCK = register("yolk_block", YolkblockBlock::new);
 	public static final DeferredBlock<Block> YOLKLIQ = register("yolkliq", YolkliqBlock::new);
 	public static final DeferredBlock<Block> EGGBRICKS = register("eggbricks", EggbricksBlock::new);
 	public static final DeferredBlock<Block> EGG_LOG = register("egg_log", EggLogBlock::new);
@@ -72,6 +72,7 @@ public class CharkenModBlocks {
 	public static final DeferredBlock<Block> SCAM_TRAY = register("scam_tray", ScamTrayBlock::new);
 	public static final DeferredBlock<Block> POSTER = register("poster", PosterBlock::new);
 	public static final DeferredBlock<Block> COMPRESSED_SEAGRASS_BLOCK = register("compressed_seagrass_block", CompressedSeaGrassBlockBlock::new);
+	public static final DeferredBlock<Block> YOLK_ORE = register("yolk_ore", YolkOreBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

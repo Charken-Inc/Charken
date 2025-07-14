@@ -1,168 +1,221 @@
-[22Jun2025 13:15:08.103] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.123, --assetIndex, 19, --assetsDir, /home/jacob/.mcreator/gradle/caches/neoformruntime/assets, --gameDir, ., --fml.fmlVersion, 6.0.11, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.123, --fml.neoFormVersion, 20241203.161809]
-[22Jun2025 13:15:08.108] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.5+11-LTS
-[22Jun2025 13:15:08.111] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Eclipse Adoptium; OS Linux arch amd64 version 6.8.0-62-generic
-[22Jun2025 13:15:08.371] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[22Jun2025 13:15:08.551] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[22Jun2025 13:15:08.687] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[22Jun2025 13:15:08.917] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/jacob/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23150!/ Service=ModLauncher Env=CLIENT
-[22Jun2025 13:15:09.021] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060/PCIe/SSE2 GL version 4.6.0 NVIDIA 550.144.03, NVIDIA Corporation
-[22Jun2025 13:15:09.502] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[22Jun2025 13:15:09.503] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[06Jul2025 15:08:04.008] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.137, --assetIndex, 19, --assetsDir, /home/jacob/.mcreator/gradle/caches/neoformruntime/assets, --gameDir, ., --fml.fmlVersion, 6.0.11, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.137, --fml.neoFormVersion, 20241203.161809]
+[06Jul2025 15:08:04.015] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[06Jul2025 15:08:04.016] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.7 by Eclipse Adoptium; OS Linux arch amd64 version 6.8.0-63-generic
+[06Jul2025 15:08:04.150] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[06Jul2025 15:08:04.275] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[06Jul2025 15:08:04.416] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[06Jul2025 15:08:04.543] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/jacob/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23150!/ Service=ModLauncher Env=CLIENT
+[06Jul2025 15:08:04.713] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060/PCIe/SSE2 GL version 4.6.0 NVIDIA 550.144.03, NVIDIA Corporation
+[06Jul2025 15:08:05.015] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[06Jul2025 15:08:05.017] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
-		Charken 1.6.2 (charken)
+		Charken 1.7.0 (charken)
 		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
 		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
 		Forgified Fabric Renderer API (v1) (CaffeineMC) 5.0.0+babc52e504 (fabric_renderer_api_v1)
 		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
 		Minecraft 1.21.4 (minecraft)
-		NeoForge 21.4.123 (neoforge)
+		NeoForge 21.4.137 (neoforge)
 		Reese's Sodium Options 1.8.3+mc1.21.4 (reeses_sodium_options)
 		Sodium 0.6.10+mc1.21.4 (sodium)
 		Sodium Extra 0.6.1+mc1.21.4 (sodium_extra)
-[22Jun2025 13:15:10.552] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[22Jun2025 13:15:10.577] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[22Jun2025 13:15:10.626] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.123, --gameDir, ., --assetsDir, /home/jacob/.mcreator/gradle/caches/neoformruntime/assets, --assetIndex, 19]
-[22Jun2025 13:15:10.818] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 0 override(s) found
-[22Jun2025 13:15:10.826] [main/WARN] [mixin/]: Reference map 'reeses-sodium-options.refmap.json' for reeses-sodium-options.mixins.json could not be read. If this is a development environment you can ignore this message
-[22Jun2025 13:15:10.913] [main/INFO] [Sodium Extra Config/]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
-[22Jun2025 13:15:10.914] [main/WARN] [mixin/]: Reference map 'sodium-extra.refmap.json' for sodium-extra.mixins.json could not be read. If this is a development environment you can ignore this message
-[22Jun2025 13:15:11.816] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[22Jun2025 13:15:14.125] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 661 milliseconds
-[22Jun2025 13:15:22.395] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Jun2025 13:15:22.397] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Jun2025 13:15:22.401] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22Jun2025 13:15:22.403] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22Jun2025 13:15:22.405] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22Jun2025 13:15:22.789] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/jacob/MCreatorWorkspaces/Charken/build/moddev/artifacts/neoforge-21.4.123.jar%23206!/assets/.mcassetsroot' uses unexpected schema
-[22Jun2025 13:15:22.789] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/jacob/MCreatorWorkspaces/Charken/build/moddev/artifacts/neoforge-21.4.123.jar%23206!/data/.mcassetsroot' uses unexpected schema
-[22Jun2025 13:15:22.832] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22Jun2025 13:15:22.849] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[22Jun2025 13:15:23.005] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[22Jun2025 13:15:23.093] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: NVIDIA Corporation
-[22Jun2025 13:15:23.093] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: NVIDIA GeForce RTX 4060/PCIe/SSE2
-[22Jun2025 13:15:23.093] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 NVIDIA 550.144.03
-[22Jun2025 13:15:23.103] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
-[22Jun2025 13:15:23.734] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.123, for MC 1.21.4
-[22Jun2025 13:15:25.709] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
-[22Jun2025 13:15:26.267] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/fabric_rendering_data_attachment_v1, mod/fabric_renderer_api_v1, mod/fabric_api_base, mod/reeses_sodium_options, mod/sodium_extra, mod/neoforge, mod/charken, mod/fabric_block_view_api_v2
-[22Jun2025 13:15:26.414] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
-[22Jun2025 13:15:26.414] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
-[22Jun2025 13:15:26.596] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/egg_stone.png, ignoring
-[22Jun2025 13:15:26.597] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/egg_leaves.png, ignoring
-[22Jun2025 13:15:26.597] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/eggstone_brick.png, ignoring
-[22Jun2025 13:15:26.597] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/egg_grass_bottom.png, ignoring
-[22Jun2025 13:15:26.598] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/eggfarmland_v2.png, ignoring
-[22Jun2025 13:15:26.598] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/egg_log_side.png, ignoring
-[22Jun2025 13:15:26.598] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/brickegg.png, ignoring
-[22Jun2025 13:15:26.599] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/egg_grass_top.png, ignoring
-[22Jun2025 13:15:26.600] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/Untitled Folder.zip, ignoring
-[22Jun2025 13:15:26.600] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/c_s_b.png, ignoring
-[22Jun2025 13:15:26.600] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/egg_trapdoor.png, ignoring
-[22Jun2025 13:15:26.600] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/texturet.png, ignoring
-[22Jun2025 13:15:26.600] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/egg_planks.png, ignoring
-[22Jun2025 13:15:26.600] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/eggdirt.png, ignoring
-[22Jun2025 13:15:26.600] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/egg_grass_side.png, ignoring
-[22Jun2025 13:15:26.601] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/textureb.png, ignoring
-[22Jun2025 13:15:26.601] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/egg_log_top.png, ignoring
-[22Jun2025 13:15:26.601] [resourceLoad/ERROR] [net.minecraft.Util/]: Invalid path in pack: charken:textures/block/Untitled Folder/eggfarmland.png, ignoring
-[22Jun2025 13:15:27.229] [resourceLoad/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture charken:block/eggfarmland with size 16x15 limits mip level from 2 to 0
-[22Jun2025 13:15:28.599] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model charken:raw_chicken_leg#inventory:
-    minecraft:textures/atlas/blocks.png:charken:block/
-[22Jun2025 13:15:29.012] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Family 17h/19h HD Audio Controller Analog Stereo
-[22Jun2025 13:15:29.013] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[22Jun2025 13:15:29.201] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
-[22Jun2025 13:15:29.218] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[22Jun2025 13:15:29.219] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[22Jun2025 13:15:29.219] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[22Jun2025 13:15:29.220] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[22Jun2025 13:15:29.225] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[22Jun2025 13:15:29.226] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[22Jun2025 13:15:29.226] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[22Jun2025 13:15:29.227] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[22Jun2025 13:15:29.232] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[22Jun2025 13:15:29.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[22Jun2025 13:15:29.401] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[22Jun2025 13:15:29.402] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[22Jun2025 13:15:29.402] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[22Jun2025 13:15:29.407] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[22Jun2025 13:15:39.638] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1399 recipes
-[22Jun2025 13:15:39.674] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1486 advancements
-[22Jun2025 13:15:39.677] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[22Jun2025 13:15:41.990] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.4
-[22Jun2025 13:15:41.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[22Jun2025 13:15:46.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[22Jun2025 13:15:46.337] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[22Jun2025 13:15:46.922] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[22Jun2025 13:15:47.362] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[22Jun2025 13:15:47.811] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[22Jun2025 13:15:48.309] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[22Jun2025 13:15:48.825] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[22Jun2025 13:15:49.311] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[22Jun2025 13:15:49.506] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'minecraft:generic.oxygen_bonus'
-[22Jun2025 13:15:49.506] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'minecraft:generic.follow_range'
-[22Jun2025 13:15:49.506] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'minecraft:generic.movement_speed'
-[22Jun2025 13:15:49.898] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[22Jun2025 13:15:50.309] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[22Jun2025 13:15:50.815] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[22Jun2025 13:15:51.314] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[22Jun2025 13:15:51.376] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[22Jun2025 13:15:51.378] [Server thread/WARN] [net.neoforged.neoforge.common.TagConventionLogWarning/]: 
+[06Jul2025 15:08:05.757] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Jul2025 15:08:05.766] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[06Jul2025 15:08:05.790] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.137, --gameDir, ., --assetsDir, /home/jacob/.mcreator/gradle/caches/neoformruntime/assets, --assetIndex, 19]
+[06Jul2025 15:08:05.862] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 0 override(s) found
+[06Jul2025 15:08:05.866] [main/WARN] [mixin/]: Reference map 'reeses-sodium-options.refmap.json' for reeses-sodium-options.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2025 15:08:05.888] [main/INFO] [Sodium Extra Config/]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[06Jul2025 15:08:05.889] [main/WARN] [mixin/]: Reference map 'sodium-extra.refmap.json' for sodium-extra.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2025 15:08:06.541] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[06Jul2025 15:08:08.175] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 522 milliseconds
+[06Jul2025 15:08:13.818] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Jul2025 15:08:13.820] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Jul2025 15:08:13.823] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Jul2025 15:08:13.826] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Jul2025 15:08:13.828] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Jul2025 15:08:14.073] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/jacob/MCreatorWorkspaces/Charken/build/moddev/artifacts/neoforge-21.4.137.jar%23206!/assets/.mcassetsroot' uses unexpected schema
+[06Jul2025 15:08:14.073] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/jacob/MCreatorWorkspaces/Charken/build/moddev/artifacts/neoforge-21.4.137.jar%23206!/data/.mcassetsroot' uses unexpected schema
+[06Jul2025 15:08:14.101] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06Jul2025 15:08:14.110] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[06Jul2025 15:08:14.239] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[06Jul2025 15:08:14.301] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: NVIDIA Corporation
+[06Jul2025 15:08:14.301] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: NVIDIA GeForce RTX 4060/PCIe/SSE2
+[06Jul2025 15:08:14.301] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 NVIDIA 550.144.03
+[06Jul2025 15:08:14.304] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[06Jul2025 15:08:14.776] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.137, for MC 1.21.4
+[06Jul2025 15:08:16.137] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[06Jul2025 15:08:16.498] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/fabric_rendering_data_attachment_v1, mod/fabric_renderer_api_v1, mod/fabric_api_base, mod/reeses_sodium_options, mod/sodium_extra, mod/neoforge, mod/charken, mod/fabric_block_view_api_v2
+[06Jul2025 15:08:16.594] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[06Jul2025 15:08:16.597] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[06Jul2025 15:08:17.354] [resourceLoad/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture charken:block/eggfarmland with size 16x15 limits mip level from 2 to 0
+[06Jul2025 15:08:18.340] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Family 17h/19h HD Audio Controller Analog Stereo
+[06Jul2025 15:08:18.341] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[06Jul2025 15:08:18.449] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[06Jul2025 15:08:18.468] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[06Jul2025 15:08:18.468] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[06Jul2025 15:08:18.469] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[06Jul2025 15:08:18.470] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[06Jul2025 15:08:18.473] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[06Jul2025 15:08:18.473] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[06Jul2025 15:08:18.474] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[06Jul2025 15:08:18.474] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[06Jul2025 15:08:18.476] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[06Jul2025 15:08:18.567] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[06Jul2025 15:08:18.568] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[06Jul2025 15:08:18.569] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[06Jul2025 15:08:18.569] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[06Jul2025 15:08:18.575] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[06Jul2025 15:08:31.909] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1416 recipes
+[06Jul2025 15:08:31.924] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1503 advancements
+[06Jul2025 15:08:31.926] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[06Jul2025 15:08:32.427] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.4
+[06Jul2025 15:08:32.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Jul2025 15:08:32.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Jul2025 15:08:33.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 15:08:33.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 15:08:33.805] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[06Jul2025 15:08:33.807] [Server thread/WARN] [net.neoforged.neoforge.common.TagConventionLogWarning/]: 
    Dev warning - Legacy Tags detected. Please migrate your 'forge' namespace tags to the 'c' namespace! See net.neoforged.neoforge.common.Tags.java for all tags.
    NOTE: Many tags have been moved around or renamed. Some new ones were added so please review the new tags.
     And make sure you follow tag conventions for new tags! The convention is `c` with nouns generally being plural and adjectives being singular.
    You can disable this message in NeoForge's common config by setting `logLegacyTagWarnings` to "SILENCED" or see individual tags with "DEV_VERBOSE".
 
-[22Jun2025 13:15:51.387] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5085 ms
-[22Jun2025 13:15:51.413] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[22Jun2025 13:15:51.414] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[22Jun2025 13:15:52.654] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:b3d6c9be] logged in with entity id 30 at (-61.5, 72.0, 6.5)
-[22Jun2025 13:15:52.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[22Jun2025 13:15:52.962] [Render thread/INFO] [ChunkBuilder/]: Started 6 worker threads
-[22Jun2025 13:15:53.266] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
-[22Jun2025 13:16:12.165] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
-[22Jun2025 13:16:12.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The End?]
-[22Jun2025 13:16:12.172] [Render thread/INFO] [ChunkBuilder/]: Started 6 worker threads
-[22Jun2025 13:16:12.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 0.500000, 0.000000, 0.500000]
-[22Jun2025 13:16:12.185] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
-[22Jun2025 13:16:12.211] [Render thread/INFO] [ChunkBuilder/]: Started 6 worker threads
-[22Jun2025 13:16:12.230] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The End?]
-[22Jun2025 13:16:12.235] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 0.500000, 0.000000, 0.500000
-[22Jun2025 13:16:13.057] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 17 advancements
-[22Jun2025 13:16:14.234] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
-[22Jun2025 13:16:14.238] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
-[22Jun2025 13:16:15.141] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2862ms or 57 ticks behind
-[22Jun2025 13:16:16.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[22Jun2025 13:16:16.462] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
-[22Jun2025 13:16:19.079] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[22Jun2025 13:16:19.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Jun2025 13:16:19.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Jun2025 13:16:19.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Jun2025 13:16:24.361] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
-[22Jun2025 13:16:24.372] [Render thread/INFO] [ChunkBuilder/]: Started 6 worker threads
-[22Jun2025 13:16:24.376] [Render thread/INFO] [Sodium/]: Flushed changes to Minecraft configuration
-[22Jun2025 13:16:25.383] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 32, from 5
-[22Jun2025 13:16:25.385] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
-[22Jun2025 13:16:25.388] [Render thread/INFO] [ChunkBuilder/]: Started 6 worker threads
-[22Jun2025 13:16:31.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[22Jun2025 13:16:31.527] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[22Jun2025 13:16:34.529] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[22Jun2025 13:16:34.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Jun2025 13:16:34.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Jun2025 13:16:34.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Jun2025 13:16:36.537] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[22Jun2025 13:16:36.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[22Jun2025 13:16:36.552] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[22Jun2025 13:16:36.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[22Jun2025 13:16:36.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[22Jun2025 13:16:36.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[22Jun2025 13:16:38.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22Jun2025 13:16:38.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22Jun2025 13:16:38.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22Jun2025 13:16:39.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (6)): All chunks are saved
-[22Jun2025 13:16:39.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22Jun2025 13:16:39.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22Jun2025 13:16:39.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22Jun2025 13:16:39.554] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
-[22Jun2025 13:16:40.869] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[06Jul2025 15:08:33.807] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 906 ms
+[06Jul2025 15:08:33.876] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 32, from 10
+[06Jul2025 15:08:33.876] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[06Jul2025 15:08:34.723] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:ea38ae66] logged in with entity id 2 at (5348.611052552534, 79.12525899967422, 21460.714912207965)
+[06Jul2025 15:08:34.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[06Jul2025 15:08:34.887] [Render thread/INFO] [ChunkBuilder/]: Started 6 worker threads
+[06Jul2025 15:08:35.046] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 88 advancements
+[06Jul2025 15:08:35.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.404] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.582] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.627] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.655] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.749] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.825] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.864] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.895] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.937] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.965] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:35.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.001] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.036] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.123] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.202] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.230] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.287] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.316] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.351] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.382] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.419] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.448] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.494] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.575] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.600] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.633] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.673] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.701] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.737] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.780] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.829] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.916] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.964] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:36.991] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.025] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.070] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.152] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.225] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.265] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.323] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.351] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.394] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.447] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.529] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.567] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.632] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.648] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:37.695] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:38.065] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[06Jul2025 15:08:38.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Jul2025 15:08:38.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[06Jul2025 15:08:38.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Jul2025 15:08:39.673] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: effect give @e[type=charken:turtken] minecraft:glowing
+[06Jul2025 15:08:39.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:08:39.777] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Applied effect Glowing to Turtken]
+[06Jul2025 15:09:10.319] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 91 advancements
+[06Jul2025 15:09:14.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Suit Up]
+[06Jul2025 15:09:14.120] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Suit Up]
+[06Jul2025 15:09:14.171] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 96 advancements
+[06Jul2025 15:09:37.068] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 96 advancements
+[06Jul2025 15:09:56.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Turtken was slain by Zombie
+[06Jul2025 15:10:09.207] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[06Jul2025 15:10:09.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Jul2025 15:10:09.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[06Jul2025 15:10:09.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Jul2025 15:10:16.770] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[06Jul2025 15:10:16.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[06Jul2025 15:10:16.790] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[06Jul2025 15:10:16.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06Jul2025 15:10:16.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06Jul2025 15:10:16.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06Jul2025 15:10:17.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Jul2025 15:10:17.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[06Jul2025 15:10:17.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Jul2025 15:10:17.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (8)): All chunks are saved
+[06Jul2025 15:10:17.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Jul2025 15:10:17.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Jul2025 15:10:17.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06Jul2025 15:10:17.587] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[06Jul2025 15:10:18.893] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

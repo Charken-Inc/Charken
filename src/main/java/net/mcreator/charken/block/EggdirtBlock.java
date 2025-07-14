@@ -1,4 +1,3 @@
-
 package net.mcreator.charken.block;
 
 import net.neoforged.neoforge.common.util.TriState;

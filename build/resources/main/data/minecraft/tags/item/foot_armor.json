@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "charken:yolk_infused_netherite_armor_boots",
+    "charken:yolk_infused_gold_armor_boots",
+    "charken:yolk_infused_diamond_armor_boots",
+    "charken:yolk_infused_iron_armor_boots"
+  ]
+}

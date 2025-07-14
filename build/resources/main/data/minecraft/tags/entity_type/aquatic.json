@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "charken:turtken_tamed",
     "charken:turtken"
   ]
 }

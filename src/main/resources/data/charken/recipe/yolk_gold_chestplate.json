@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "charken:yolk_block",
+    "b": "minecraft:golden_chestplate"
+  },
+  "result": {
+    "id": "charken:yolk_infused_gold_armor_chestplate",
+    "count": 1
+  }
+}

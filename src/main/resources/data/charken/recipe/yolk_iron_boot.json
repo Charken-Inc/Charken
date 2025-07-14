@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "charken:yolk_block",
+    "b": "minecraft:iron_boots"
+  },
+  "result": {
+    "id": "charken:yolk_infused_iron_armor_boots",
+    "count": 1
+  }
+}

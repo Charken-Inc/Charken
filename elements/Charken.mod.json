@@ -1,5 +1,5 @@
 {
-  "_fv": 77,
+  "_fv": 79,
   "_type": "livingentity",
   "definition": {
     "mobName": "Charken",
@@ -162,6 +162,11 @@
       4,
       4,
       2
-    ]
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
   }
 }

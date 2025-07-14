@@ -22,7 +22,7 @@ mipmapLevels:2
 narrator:0
 particles:0
 reducedDebugInfo:false
-renderClouds:"true"
+renderClouds:"false"
 renderDistance:32
 simulationDistance:12
 screenEffectScale:1.0
@@ -51,7 +51,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources"]
+resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:localhost:25463
 lang:en_us
@@ -61,8 +61,8 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
-pauseOnLostFocus:true
+advancedItemTooltips:true
+pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
 chatHeightFocused:1.0
@@ -78,7 +78,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:true
 syncChunkWrites:false

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "charken:yolk_infused_netherite_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "charken:yolk_infused_netherite_armor"
+      }
+    ]
+  }
+}

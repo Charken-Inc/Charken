@@ -1,4 +1,3 @@
-
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -16,6 +15,10 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.charken.item.YolkliqItem;
 import net.mcreator.charken.item.YolkItem;
+import net.mcreator.charken.item.YolkInfusedNetheriteArmorItem;
+import net.mcreator.charken.item.YolkInfusedIronArmorItem;
+import net.mcreator.charken.item.YolkInfusedGoldArmorItem;
+import net.mcreator.charken.item.YolkInfusedDiamondArmorItem;
 import net.mcreator.charken.item.TurtkenSwordItem;
 import net.mcreator.charken.item.TurtkenShellItem;
 import net.mcreator.charken.item.TurtkenShellChunkItem;
@@ -47,7 +50,7 @@ public class CharkenModItems {
 	public static final DeferredItem<Item> EGGSTONEBRICKS = block(CharkenModBlocks.EGGSTONEBRICKS);
 	public static final DeferredItem<Item> EGGGRASS = block(CharkenModBlocks.EGGGRASS);
 	public static final DeferredItem<Item> EGGDIRT = block(CharkenModBlocks.EGGDIRT);
-	public static final DeferredItem<Item> YOLKBLOCK = block(CharkenModBlocks.YOLKBLOCK);
+	public static final DeferredItem<Item> YOLK_BLOCK = block(CharkenModBlocks.YOLK_BLOCK);
 	public static final DeferredItem<Item> YOLK = register("yolk", YolkItem::new);
 	public static final DeferredItem<Item> FLINGSHOT = register("flingshot", FlingshotItem::new);
 	public static final DeferredItem<Item> YOLKLIQ_BUCKET = register("yolkliq_bucket", YolkliqItem::new);
@@ -89,6 +92,23 @@ public class CharkenModItems {
 	public static final DeferredItem<Item> COMPRESSED_SEAGRASS = register("compressed_seagrass", CompressedSeaGrassItem::new);
 	public static final DeferredItem<Item> COMPRESSED_SEAGRASS_BLOCK = block(CharkenModBlocks.COMPRESSED_SEAGRASS_BLOCK);
 	public static final DeferredItem<Item> TURTKEN_SWORD = register("turtken_sword", TurtkenSwordItem::new);
+	public static final DeferredItem<Item> YOLK_ORE = block(CharkenModBlocks.YOLK_ORE);
+	public static final DeferredItem<Item> YOLK_INFUSED_IRON_ARMOR_HELMET = register("yolk_infused_iron_armor_helmet", YolkInfusedIronArmorItem.Helmet::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_IRON_ARMOR_CHESTPLATE = register("yolk_infused_iron_armor_chestplate", YolkInfusedIronArmorItem.Chestplate::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_IRON_ARMOR_LEGGINGS = register("yolk_infused_iron_armor_leggings", YolkInfusedIronArmorItem.Leggings::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_IRON_ARMOR_BOOTS = register("yolk_infused_iron_armor_boots", YolkInfusedIronArmorItem.Boots::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_GOLD_ARMOR_HELMET = register("yolk_infused_gold_armor_helmet", YolkInfusedGoldArmorItem.Helmet::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_GOLD_ARMOR_CHESTPLATE = register("yolk_infused_gold_armor_chestplate", YolkInfusedGoldArmorItem.Chestplate::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_GOLD_ARMOR_LEGGINGS = register("yolk_infused_gold_armor_leggings", YolkInfusedGoldArmorItem.Leggings::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_GOLD_ARMOR_BOOTS = register("yolk_infused_gold_armor_boots", YolkInfusedGoldArmorItem.Boots::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_DIAMOND_ARMOR_HELMET = register("yolk_infused_diamond_armor_helmet", YolkInfusedDiamondArmorItem.Helmet::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_DIAMOND_ARMOR_CHESTPLATE = register("yolk_infused_diamond_armor_chestplate", YolkInfusedDiamondArmorItem.Chestplate::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_DIAMOND_ARMOR_LEGGINGS = register("yolk_infused_diamond_armor_leggings", YolkInfusedDiamondArmorItem.Leggings::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_DIAMOND_ARMOR_BOOTS = register("yolk_infused_diamond_armor_boots", YolkInfusedDiamondArmorItem.Boots::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_NETHERITE_ARMOR_HELMET = register("yolk_infused_netherite_armor_helmet", YolkInfusedNetheriteArmorItem.Helmet::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_NETHERITE_ARMOR_CHESTPLATE = register("yolk_infused_netherite_armor_chestplate", YolkInfusedNetheriteArmorItem.Chestplate::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_NETHERITE_ARMOR_LEGGINGS = register("yolk_infused_netherite_armor_leggings", YolkInfusedNetheriteArmorItem.Leggings::new);
+	public static final DeferredItem<Item> YOLK_INFUSED_NETHERITE_ARMOR_BOOTS = register("yolk_infused_netherite_armor_boots", YolkInfusedNetheriteArmorItem.Boots::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
@@ -97,10 +117,18 @@ public class CharkenModItems {
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
-		return REGISTRY.registerItem(block.getId().getPath(), properties -> new BlockItem(block.get(), properties), new Item.Properties());
+		return block(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
 	}
 
 	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
-		return REGISTRY.registerItem(block.getId().getPath(), properties -> new DoubleHighBlockItem(block.get(), properties), new Item.Properties());
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), properties);
 	}
 }

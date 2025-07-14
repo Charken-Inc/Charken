@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "charken:block/blocksprite_gold-oregarbage",
+    "up": "charken:block/blocksprite_gold-oregarbage",
+    "north": "charken:block/blocksprite_gold-oregarbage",
+    "east": "charken:block/blocksprite_gold-oregarbage",
+    "south": "charken:block/blocksprite_gold-oregarbage",
+    "west": "charken:block/blocksprite_gold-oregarbage",
+    "particle": "charken:block/blocksprite_gold-oregarbage"
+  },
+  "render_type": "solid"
+}

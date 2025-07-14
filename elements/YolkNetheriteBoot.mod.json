@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Yolk"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "Items.NETHERITE_BOOTS"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YolkInfusedNetheriteArmor.boots"
+    },
+    "name": "yolk_netherite_boot",
+    "namespace": "mod"
+  }
+}

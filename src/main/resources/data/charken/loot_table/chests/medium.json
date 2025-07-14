@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "charken:yolkblock",
+          "name": "charken:yolk_block",
           "weight": 4,
           "functions": [
             {

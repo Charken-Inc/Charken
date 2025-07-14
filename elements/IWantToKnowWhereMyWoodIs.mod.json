@@ -1,5 +1,5 @@
 {
-  "_fv": 77,
+  "_fv": 79,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -54,6 +54,7 @@
     },
     "musicDiscDescription": "I want to know where my wood is Cover by Element Animations.",
     "musicDiscLengthInTicks": 1280,
-    "musicDiscAnalogOutput": 14
+    "musicDiscAnalogOutput": 14,
+    "providedBannerPatterns": []
   }
 }

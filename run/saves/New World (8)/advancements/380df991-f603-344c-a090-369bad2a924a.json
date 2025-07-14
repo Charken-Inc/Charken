@@ -1,0 +1,324 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-02 17:54:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:ice_spikes": "2025-07-02 17:54:26 -0500",
+      "minecraft:beach": "2025-07-03 10:43:23 -0500",
+      "minecraft:forest": "2025-07-02 18:02:43 -0500",
+      "minecraft:sparse_jungle": "2025-07-02 17:57:52 -0500",
+      "minecraft:jungle": "2025-07-02 17:57:00 -0500",
+      "minecraft:river": "2025-07-02 17:59:23 -0500",
+      "minecraft:lukewarm_ocean": "2025-07-02 18:02:19 -0500",
+      "minecraft:snowy_plains": "2025-07-02 17:54:11 -0500",
+      "minecraft:plains": "2025-07-02 17:58:03 -0500"
+    },
+    "done": false
+  },
+  "charken:a_very_eggy_place": {
+    "criteria": {
+      "a_very_eggy_place_0": "2025-07-02 17:54:24 -0500"
+    },
+    "done": false
+  },
+  "charken:recipes/yolkblockrecipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-02 17:57:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-07-02 18:02:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-07-02 18:02:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-07-02 18:02:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2025-07-02 18:02:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-07-02 18:02:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-07-02 18:02:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-07-02 18:02:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-07-02 18:02:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-07-02 18:02:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-07-02 18:02:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-07-03 10:44:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-07-03 20:11:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-07-03 20:20:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2025-07-03 20:20:46 -0500",
+      "minecraft:drowned": "2025-07-06 15:09:37 -0500"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2025-07-03 20:20:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-07-03 20:20:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-07-03 20:20:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-07-03 20:20:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-07-03 20:20:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-07-03 20:20:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-07-03 20:20:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-07-03 20:20:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-07-03 20:20:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-07-03 20:20:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2025-07-03 20:20:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-07-03 20:20:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-07-03 20:20:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bundle": {
+    "criteria": {
+      "has_string": "2025-07-03 20:20:55 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_netherite_helmet": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_diamond_boot": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-07-06 15:09:14 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_gold_chestplate": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-07-06 15:09:14 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_iron_leggings": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_gold_helmet": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_iron_chestplate": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_gold_boot": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_netherite_boot": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_diamond_helmet": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_netherite_leggings": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_netherite_chestplate": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_gold_leggings": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_diamond_chestplate": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-07-06 15:09:14 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_iron_helmet": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_iron_boot": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-07-06 15:09:10 -0500"
+    },
+    "done": true
+  },
+  "charken:recipes/yolk_diamond_leggings": {
+    "criteria": {
+      "has_ingredient_0": "2025-07-06 15:08:34 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
+}

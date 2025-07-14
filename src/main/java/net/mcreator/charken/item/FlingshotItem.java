@@ -1,8 +1,6 @@
-
 package net.mcreator.charken.item;
 
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.ItemUseAnimation;
 import net.minecraft.world.item.ItemStack;
@@ -19,7 +17,7 @@ import net.mcreator.charken.entity.YolkproEntity;
 
 public class FlingshotItem extends Item {
 	public FlingshotItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.COMMON).stacksTo(64).enchantable(14));
+		super(properties.enchantable(14));
 	}
 
 	@Override

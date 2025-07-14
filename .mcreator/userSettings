@@ -5,7 +5,13 @@
   "projectBrowserSplitPos": 0,
   "projectBrowserState": {
     "expandedPaths": [
-      "[, Charken]"
+      "[, Charken]",
+      "[, Charken, Resources (Gradle)]",
+      "[, Charken, Resources (Gradle), /home/jacob/MCreatorWorkspaces/Charken/src/main/resources/data]",
+      "[, Charken, Resources (Gradle), /home/jacob/MCreatorWorkspaces/Charken/src/main/resources/data, /home/jacob/MCreatorWorkspaces/Charken/src/main/resources/data/charken]",
+      "[, Charken, Resources (Gradle), /home/jacob/MCreatorWorkspaces/Charken/src/main/resources/data, /home/jacob/MCreatorWorkspaces/Charken/src/main/resources/data/charken, /home/jacob/MCreatorWorkspaces/Charken/src/main/resources/data/charken/jukebox_song]",
+      "[, Charken, Resources (Gradle), /home/jacob/MCreatorWorkspaces/Charken/src/main/resources/data, /home/jacob/MCreatorWorkspaces/Charken/src/main/resources/data/charken, /home/jacob/MCreatorWorkspaces/Charken/src/main/resources/data/charken/loot_table]",
+      "[, Charken, Sounds]"
     ]
   }
 }

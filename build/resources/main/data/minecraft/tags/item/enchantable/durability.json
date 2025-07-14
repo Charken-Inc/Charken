@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "charken:turtken_shell",
     "charken:blade",
-    "charken:movie_sword",
-    "charken:lasso"
+    "charken:lasso",
+    "charken:turtken_shell",
+    "charken:movie_sword"
   ]
 }

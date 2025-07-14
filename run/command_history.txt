@@ -1,50 +1,50 @@
-/tp ~ ~ ~10000
-/locate structure charken:scam_shack
-/tp @s 640 ~ 20480
-/tp ~ ~ ~1000
-/locate structure charken:scam_shack
-/tp @s -320 ~ 22400
-/locate structure charken:scam_shack
-/tp @s -640 ~ -640
-/locate structure charken:scam_shack
-/tp @s 896 ~ -832
-/tick rate 9999
-/give Dev charken:egg_leaves_test
-/give Dev charken:egg_leave
-/locate biome charken:egg_forest
-/tp @s -1303 -50 -1150
-/tp Dev ~ ~100000 ~
-/locate biome charken:egg_forest
-/tp Dev ~ ~-100000 ~
-/tp Dev ~ ~ ~10000000
-/locate biome charken:egg_forest
-/tp @s -306 -59 10000073
-/locate biome charken:egg_forest
-/tp @s -1381 112 1390
-/locate biome charken:egg_forest
-/tp @s 2153 87 -357
-/gamerule randomTickSpeed 200
-/gamerule randomTickSpeed 20
-/gamerule randomTickSpeed 200
-/gamerule randomTickSpeed 20
-/gamerule randomTickSpeed 200
-/fill 2152 86 -340
-/fill 2152 86 -340 2156 92 -336 minecraft:structure_void replace air
-/fill 2150 85 -329
-/fill 2150 85 -329 2146 90 -325 minecraft:structure_void replace air
-/setblock ~ ~ ~ charken:compressed_sea_grass_block
-/summon charken:yolktrien ~ ~ ~ {NoAI:1}
-/summon charken:charken ~ ~ ~ {NoAI:1}
-/summon charken:charkley ~ ~ ~ {NoAI:1}
-/summon charken:warlm ~ ~ ~ {NoAI:1}
-/summon charken:goatin ~ ~ ~ {NoAI:1}
-/effect give @e[type=charken:warlm] minecraft:glowing infinite
-/effect give @e[type=charken:warlm] minecraft:glowing infinite 1 true
-/locate biome charken:egg
-/tp @s -16 115 -50
-/locate biome charken:egg
-/locate biome charken:egg_forest
-/tp @s -76 141 -155
+/tick freeze
+/tick unfreeze
+/fill -168 -51 -285
+/fill -168 -51 -285 -182 -51 -266 air
+/fill -219 -52 -226
+/fill -219 -52 -226 -233 -52 -207 air
+/fill -219 -52 -226 -233 -52 -207 charken:eggstonebricks
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
 /locate biome charken:egg_caves
-/tp @s -72 3 -241
-/execute in minecraft:the_end run tp Dev 0 0 0
+/tp @s 99 88 160
+/locate structure charken:egg_dungeon
+/tp @s -2432 ~ 96
+/enchant Dev minecraft:silk_touch
+/locate biome charken:egg
+/tp @s 175 13 -779
+/locate biome charken:egg_caves
+/tp @s 224 8 -721
+/tp Dev ~ ~300 ~10000
+/locate biome charken:egg_caves
+/tp @s 222 40 9278
+/locate structure charken:egg_dungeon
+/tp @s 5264 ~ 10608
+/tp Dev ~ ~300 ~10000
+/locate structure charken:egg_dungeon
+/tp @s 5776 ~ 21472
+/locate biome minecraft:beach
+/tp @s 5356 126 21438
+/attribute Dev minecraft:attack_damage base set 999999999
+/tick rate 2000
+/time set night
+/gamerule doDaylightCycle false
+/gamerule doDaylightCycle true
+/tick rate 2000
+/time set day
+/tick rate 2000
+/kill @e[type=charken:turtken]
+/tick rate 2000
+/kill @e[type=charken:turtken]
+/tick rate 2000
+/gamerule doDaylightCycle false
+/tick rate 2000
+/data get entity 9f459f0c-84e8-4ed3-921e-1c16652b0b6c
+/summon charken:turtken_tamed
+/data get entity 5e184b2e-f7d4-4734-94d6-4ab75b67fe22
+/tick rate 2000
+/tick rate 20
+/give Dev charken:yolk_infused_iron_armor_helmet

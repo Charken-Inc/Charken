@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Yolk"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "Items.IRON_HELMET"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      },
+      {
+        "value": "CUSTOM:Yolkblock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YolkInfusedIronArmor.helmet"
+    },
+    "name": "yolk_iron_helmet",
+    "namespace": "mod"
+  }
+}

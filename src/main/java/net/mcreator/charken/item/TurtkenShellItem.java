@@ -1,4 +1,3 @@
-
 package net.mcreator.charken.item;
 
 import net.minecraft.world.item.component.ItemAttributeModifiers;
@@ -12,7 +11,7 @@ import net.minecraft.world.entity.EquipmentSlotGroup;
 
 public class TurtkenShellItem extends Item {
 	public TurtkenShellItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.UNCOMMON).durability(40).fireResistant()
+		super(properties.rarity(Rarity.EPIC).durability(40).fireResistant()
 				.attributes(ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, 5, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
 						.add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, -2.4, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build()));
 	}

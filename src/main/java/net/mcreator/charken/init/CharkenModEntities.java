@@ -1,4 +1,3 @@
-
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -21,6 +20,7 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.charken.entity.YolktrienEntity;
 import net.mcreator.charken.entity.YolkproEntity;
 import net.mcreator.charken.entity.WarlmEntity;
+import net.mcreator.charken.entity.TurtkenTamedEntity;
 import net.mcreator.charken.entity.TurtkenEntity;
 import net.mcreator.charken.entity.SprayEntity;
 import net.mcreator.charken.entity.GoatinEntity;
@@ -59,6 +59,10 @@ public class CharkenModEntities {
 			EntityType.Builder.<TurtkenEntity>of(TurtkenEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(70).setUpdateInterval(3)
 
 					.sized(2.3f, 2.3f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TurtkenTamedEntity>> TURTKEN_TAMED = register("turtken_tamed",
+			EntityType.Builder.<TurtkenTamedEntity>of(TurtkenTamedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(70).setUpdateInterval(3)
+
+					.sized(2.3f, 2.3f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -74,6 +78,7 @@ public class CharkenModEntities {
 		CharkleyEntity.init(event);
 		GoatinEntity.init(event);
 		TurtkenEntity.init(event);
+		TurtkenTamedEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -84,5 +89,6 @@ public class CharkenModEntities {
 		event.put(CHARKLEY.get(), CharkleyEntity.createAttributes().build());
 		event.put(GOATIN.get(), GoatinEntity.createAttributes().build());
 		event.put(TURTKEN.get(), TurtkenEntity.createAttributes().build());
+		event.put(TURTKEN_TAMED.get(), TurtkenTamedEntity.createAttributes().build());
 	}
 }

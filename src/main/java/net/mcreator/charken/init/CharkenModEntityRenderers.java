@@ -1,4 +1,3 @@
-
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -12,6 +11,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.mcreator.charken.client.renderer.YolktrienRenderer;
 import net.mcreator.charken.client.renderer.YolkproRenderer;
 import net.mcreator.charken.client.renderer.WarlmRenderer;
+import net.mcreator.charken.client.renderer.TurtkenTamedRenderer;
 import net.mcreator.charken.client.renderer.TurtkenRenderer;
 import net.mcreator.charken.client.renderer.SprayRenderer;
 import net.mcreator.charken.client.renderer.GoatinRenderer;
@@ -30,5 +30,6 @@ public class CharkenModEntityRenderers {
 		event.registerEntityRenderer(CharkenModEntities.SPRAY.get(), SprayRenderer::new);
 		event.registerEntityRenderer(CharkenModEntities.GOATIN.get(), GoatinRenderer::new);
 		event.registerEntityRenderer(CharkenModEntities.TURTKEN.get(), TurtkenRenderer::new);
+		event.registerEntityRenderer(CharkenModEntities.TURTKEN_TAMED.get(), TurtkenTamedRenderer::new);
 	}
 }

@@ -1,0 +1,15 @@
+{
+  "charken:a_very_eggy_place": {
+    "criteria": {
+      "a_very_eggy_place_0": "2025-06-30 13:48:33 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-06-30 13:48:32 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
+}

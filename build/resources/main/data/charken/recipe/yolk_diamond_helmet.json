@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "charken:yolk_block",
+    "b": "minecraft:diamond_helmet"
+  },
+  "result": {
+    "id": "charken:yolk_infused_diamond_armor_helmet",
+    "count": 1
+  }
+}

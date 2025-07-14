@@ -15,6 +15,7 @@ public class CharkenOnEntityTickUpdateProcedure {
 			if (world instanceof ServerLevel _level) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(CharkenModBlocks.CHARKEN_EGG.get()));
 				entityToSpawn.setPickUpDelay(10);
+				entityToSpawn.setUnlimitedLifetime();
 				_level.addFreshEntity(entityToSpawn);
 			}
 		}

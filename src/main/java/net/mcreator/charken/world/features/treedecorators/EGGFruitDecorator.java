@@ -1,4 +1,3 @@
-
 package net.mcreator.charken.world.features.treedecorators;
 
 import net.neoforged.neoforge.registries.RegisterEvent;

@@ -1,4 +1,3 @@
-
 package net.mcreator.charken.fluid.types;
 
 import net.neoforged.neoforge.fluids.FluidType;

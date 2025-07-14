@@ -1,5 +1,5 @@
 {
-  "_fv": 77,
+  "_fv": 79,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -58,6 +58,7 @@
     },
     "musicDiscDescription": "The Tale of Charken",
     "musicDiscLengthInTicks": 2880,
-    "musicDiscAnalogOutput": 15
+    "musicDiscAnalogOutput": 15,
+    "providedBannerPatterns": []
   }
 }

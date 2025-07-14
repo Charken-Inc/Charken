@@ -1,4 +1,3 @@
-
 package net.mcreator.charken.fluid;
 
 import net.neoforged.neoforge.fluids.BaseFlowingFluid;

@@ -1,4 +1,3 @@
-
 package net.mcreator.charken.entity;
 
 import net.neoforged.api.distmarker.OnlyIn;

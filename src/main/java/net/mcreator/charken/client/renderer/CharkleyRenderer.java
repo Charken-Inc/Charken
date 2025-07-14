@@ -1,4 +1,3 @@
-
 package net.mcreator.charken.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
